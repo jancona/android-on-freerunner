@@ -6,10 +6,11 @@
   How ever the following work around seems to work for larlin atleast.
   Download the zip-file unzip the contents.
   Run the following dfu-util commands:
-
-  dfu-util -a kernel -R -D kernel.img
-  dfu-util -a rootfs -R -D system.img 
-  dfu-util -a u-boot -R -D qi.img 
+  {{{
+dfu-util -a kernel -R -D kernel.img
+dfu-util -a rootfs -R -D system.img
+dfu-util -a u-boot -R -D qi.img  
+  }}}
 
   Be aware off configuration files left on the sdcard data partion that can in some circumstances give you problems.
 
