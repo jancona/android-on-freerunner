@@ -3,15 +3,8 @@
 
   * *Any chance for a release where I can flash the freerunner with dfu-utils?* This would be very useful, but we don't have a procedure to do this yet. See [http://code.google.com/p/android-on-freerunner/issues/detail?id=6 Issue 6].
 
-  How ever the following work around seems to work for larlin atleast.
-  Download the zip-file unzip the contents.
-  Run the following dfu-util commands:
-  {{{
-dfu-util -a kernel -R -D kernel.img
-dfu-util -a rootfs -R -D system.img
-dfu-util -a u-boot -R -D qi.img  
-  }}}
-
-  Be aware off configuration files left on the sdcard data partion that can in some circumstances give you problems.
-
   * *Why did you package the release only as a ZIP file?* Jim was lazy and didn't want to build two archives and figured it was easier for Linux users to deal with zip than for Windows users to deal with .tar.gz. If someone wants to volunteer to do packaging, he or she can override that decision. :-) 
+
+  * *I used to be able to tell it to stay on when USB is plugged in through (I think) either the Dev Tools or Spare Parts apps, but I can't find that option now - any clues?* `Settings/Applications/Development/Stay awake`
+
+  * *Is it possible to tell it to not use GPRS ?  I don't have a data plan and I don't want it turned on unless I absolutely need it.* Go to `Settings/Wireless controls/Mobile networks/Access Point Names`. Select each APN that shows up there, when you get to the details page, do Menu button, Delete APN. Note that you may want to write down the APN info somewhere, in case you change your mind and want to re-add it. Unfortunately, I don't know of a "Disable GPRS" switch anywhere. 
