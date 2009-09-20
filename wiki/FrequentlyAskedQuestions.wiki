@@ -2,3 +2,5 @@
 #labels Featured
 
   * *Any chance for a release where I can flash the freerunner with dfu-utils?* This would be very useful, but we don't have a procedure to do this yet. See [http://code.google.com/p/android-on-freerunner/issues/detail?id=6 Issue 6].
+
+  * *Why did you package the release only as a ZIP file?* Jim was lazy and didn't want to build two archives and figured it was easier for Linux users to deal with zip than for Windows users to deal with .tar.gz. If someone wants to volunteer to do packaging, he or she can override that decision. :-) 
