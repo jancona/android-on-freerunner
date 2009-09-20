@@ -3,14 +3,14 @@
 
   * *Any chance for a release where I can flash the freerunner with dfu-utils?* This would be very useful, but we don't have a procedure to do this yet. See [http://code.google.com/p/android-on-freerunner/issues/detail?id=6 Issue 6].
 
-How ever the following work around seems to work for larlin atleast.
-Download the zip-file unzip the contents.
-Run the following dfu-util commands:
+  How ever the following work around seems to work for larlin atleast.
+  Download the zip-file unzip the contents.
+  Run the following dfu-util commands:
 
-dfu-util -a kernel -R -D kernel.img
-dfu-util -a rootfs -R -D system.img 
-dfu-util -a u-boot -R -D qi.img 
+  dfu-util -a kernel -R -D kernel.img
+  dfu-util -a rootfs -R -D system.img 
+  dfu-util -a u-boot -R -D qi.img 
 
-Be aware off configuration files left on the sdcard data partion that can in some circumstances give you problems.
+  Be aware off configuration files left on the sdcard data partion that can in some circumstances give you problems.
 
   * *Why did you package the release only as a ZIP file?* Jim was lazy and didn't want to build two archives and figured it was easier for Linux users to deal with zip than for Windows users to deal with .tar.gz. If someone wants to volunteer to do packaging, he or she can override that decision. :-) 
