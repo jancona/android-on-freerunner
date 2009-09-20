@@ -1,0 +1,4 @@
+#summary Frequently Asked Questions about running Android on Freerunner
+#labels Featured
+
+  * *Any chance for a release where I flash the freerunner with dfu-utils?* This would be very useful, but we don't have a procedure to do this yet. See [http://code.google.com/p/android-on-freerunner/issues/detail?id=6 Issue 6].
