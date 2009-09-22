@@ -1,8 +1,6 @@
 #summary Android debug bridge can be used to debug and test things on android.
 #labels Phase-Deploy
 
-Android debug bridge can be used to debug and test things on android.
-
 = Introduction =
 
 Here should be something about how to get adb and installing it. A link to the relevant android pages would be good enough I think.
