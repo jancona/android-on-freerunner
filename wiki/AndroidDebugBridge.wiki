@@ -7,7 +7,7 @@ Here should be something about how to get adb and installing it. A link to the r
 
 = Connecting =
 
-First connect your freerunner running android with usb to your desktop. The following command configure usb networking on some Linux systems.
+First connect your freerunner running android with usb to your host. The following command configure usb networking on some Linux systems.
 
 {{{
 # ifconfig usb0 192.168.0.200 netmask 255.255.255.0
