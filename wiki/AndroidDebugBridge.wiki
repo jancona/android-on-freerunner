@@ -10,15 +10,15 @@ Here should be something about how to get adb and installing it. A link to the r
 First connect your freerunner running android with usb to your host. The following command configure usb networking on some Linux systems.
 
 {{{
-# ifconfig usb0 192.168.0.200 netmask 255.255.255.0
+   ifconfig usb0 192.168.0.200 netmask 255.255.255.0
 }}}
 Usb networking is required to use adb if these commands doesn't work find out how to do the same thing on your system.
 
 When usb networking has been configured and confirmed working use the following command to connect.
 
 {{{
-# adb kill-server
-ADBHOST=192.168.0.202 adb devices
+   adb kill-server
+   ADBHOST=192.168.0.202 adb devices
 }}}
 
 = Commands =
