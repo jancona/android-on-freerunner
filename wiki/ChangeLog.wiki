@@ -1,0 +1,11 @@
+#summary Change Log for versions of android-on-freerunner
+
+= v.0.1.1 =
+
+Issue [http://code.google.com/p/android-on-freerunner/issues/detail?id=3 3]:
+Suspend during call, fixed.
+
+
+= v.0.1 =
+
+First release, a combination of the [www.koolu.com koolu] branch and code from [http://panicking.kicks-ass.org/blog/index.php panicking] and some fixes and cosmetics that jancona did when combining the release.
