@@ -8,4 +8,4 @@ Suspend during call, fixed.
 
 = v.0.1 =
 
-First release, a combination of the [www.koolu.com koolu] branch and code from [http://panicking.kicks-ass.org/blog/index.php panicking] and some fixes and cosmetics that jancona did when combining the release.
+First release, a combination of the [http://www.koolu.com/ koolu] branch and code from [http://panicking.kicks-ass.org/blog/index.php panicking] and some fixes and cosmetics that jancona did when combining the release.
