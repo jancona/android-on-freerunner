@@ -73,5 +73,5 @@ Moves a file on the host to the phone.
 Moves a file on the phone to the host
 
 {{{
-   adb push PHONE_FILE HOST_PATH
+   adb pull PHONE_FILE HOST_PATH
 }}}
