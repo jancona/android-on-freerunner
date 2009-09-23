@@ -12,7 +12,7 @@ First connect your freerunner running android with usb to your host. The followi
 {{{
    ifconfig usb0 192.168.0.200 netmask 255.255.255.0
 }}}
-Usb networking is required to use adb if these commands doesn't work find out how to do the same thing on your system.
+Usb networking is required to use adb if these commands doesn't work find out how to do the same thing on your system.  The connection port might be different on your system i.e. eth0, eth1.
 
 When usb networking has been configured and confirmed working use the following command to connect.
 
@@ -60,18 +60,20 @@ Lists all available adb devices on the host.
    adb devices
    ADBHOST=192.168.0.202 adb devices
 }}}
-ADBHOST sets the ipaddress for the network where the android phone is. This address must match the address configured with the usb network.
+ADBHOST sets the ip address for the network where the android phone is. This address must match the address configured with the usb network.
 
 == push ==
 Moves a file on the host to the phone.
 
 {{{
-   adb push HOST_FILE PHONE_PATH
+   adb push HOST_FILE PHONE_PATH PHONE_FILE HOST_PATH
 }}}
 
 == pull ==
 Moves a file on the phone to the host
 
 {{{
-   adb pull PHONE_FILE HOST_PATH
+   adb pull PHONE_FILE HOST_PATH HOST_FILE PHONE_PATH
 }}}
+
+*NB:* Ommitting the final path will write to the current directory
