@@ -16,6 +16,10 @@ dfu-util -a u-boot -R -D qi.img
 
   * *Is it possible to tell it to not use GPRS ?  I don't have a data plan and I don't want it turned on unless I absolutely need it.* Go to `Settings/Wireless controls/Mobile networks/Access Point Names`. Select each APN that shows up there, when you get to the details page, do Menu button, Delete APN. Note that you may want to write down the APN info somewhere, in case you change your mind and want to re-add it. Unfortunately, I don't know of a "Disable GPRS" switch anywhere. 
 
+  * *Which Videos formats are supported?* This project cannot use non-free codecs due to licensing issues. (We need to research this and find out what works)
+
+  * *I am using Windows 7. How do I ssh/adb into the phone from Windows?* (needs an answer.  Can any M$ users help?)
+
 ----
-If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
+     If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
 ----
