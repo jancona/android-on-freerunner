@@ -76,4 +76,4 @@ Moves a file on the phone to the host
    adb pull PHONE_FILE HOST_PATH HOST_FILE PHONE_PATH
 }}}
 
-*NB:* Ommitting the final path will write to the current directory
+*NB:* Leaving out the final path will write to the current directory
