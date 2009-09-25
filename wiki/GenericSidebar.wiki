@@ -1,10 +1,6 @@
-* [MainPage Main page]
-
-* [GetIt Get it]
-
-* [UseIt Use it]
-   * [FrequentlyAskedQuestions FAQ]
-
-* [ImproveIt Improve it]
-
-* [ChangeLog Change log]
+  * [MainPage Main page]
+  * [GetIt Get it]
+  * [UseIt Use it]
+     * [FrequentlyAskedQuestions FAQ]
+  * [ImproveIt Improve it]
+  * [ChangeLog Change log]
