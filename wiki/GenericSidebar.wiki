@@ -1,10 +1,10 @@
-* [MainPage Main page]
+  * [MainPage Main page]
 
-* [GetIt Get it]
+  * [GetIt Get it]
 
-* [UseIt Use it]
-   * [FrequentlyAskedQuestions FAQ]
+  * [UseIt Use it]
+     * [FrequentlyAskedQuestions FAQ]
 
-* [ImproveIt Improve it]
+  * [ImproveIt Improve it]
 
-* [ChangeLog Change log]
+  * [ChangeLog Change log]
