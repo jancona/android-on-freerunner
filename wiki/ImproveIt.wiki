@@ -1,4 +1,4 @@
-#android-on-freerunner Testing, debugging & contributing patches
+#summary android-on-freerunner - Testing, debugging & contributing patches
 
 = Introduction =
 
