@@ -3,8 +3,8 @@
 * [GetIt Get it]
 
 * [UseIt Use it]
-   * [FAQ FAQ]
+   * [FrequentlyAskedQuestions FAQ]
 
 * [ImproveIt Improve it]
 
-* [Changelog Change log]
+* [ChangeLog Change log]
