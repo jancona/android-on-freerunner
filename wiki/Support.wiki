@@ -1,0 +1,8 @@
+#summary Ways go get help with problems
+
+If you need help with anything related to android-on-freerunner feel free to ask in our mailing list or irc channel.
+
+IRC: #android-on-freerunner@freenode.net
+Maillist: android-on-freerunner@googlegroups.com
+
+_Comments to: [http://code.google.com/u/niels.heyvaert/larli286 ]_
