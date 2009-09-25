@@ -1,0 +1,18 @@
+#android-on-freerunner, Set-up, use & support.
+
+= Introduction =
+
+Under Construction (25 Sep 09)
+
+
+= Details =
+
+  * Post install set-up
+  * Daily use
+  * Support
+  * FAQ
+  * ADB shell
+  * Features
+
+----
+_Comments to: larlin_
