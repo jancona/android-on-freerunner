@@ -10,7 +10,7 @@ Under Construction (25 Sep 09)
   * Post install set-up
   * Daily use
   * Support
-  * FAQ
+  * [FrequentlyAskedQuestions FAQ]
   * ADB shell
   * Features
 
