@@ -1,0 +1,18 @@
+#android-on-freerunner Testing, debugging & contributing patches
+
+= Introduction =
+
+Under Construction (25 Sep 09)
+
+
+= Details =
+
+  * Contribute
+  * Getting the source code
+  * Compiling
+  * Committing changes
+  * Testing
+  * Debugging
+
+----
+_Comments to: Aitch_
