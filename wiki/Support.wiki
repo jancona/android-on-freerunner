@@ -5,4 +5,4 @@ If you need help with anything related to android-on-freerunner feel free to ask
 IRC: #android-on-freerunner@freenode.net
 Maillist: android-on-freerunner@googlegroups.com
 
-_Comments to: [http://code.google.com/u/niels.heyvaert/larli286 ]_
+_Comments to: [http://code.google.com/u/larli289 larlin]_
