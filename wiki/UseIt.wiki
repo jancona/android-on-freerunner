@@ -11,7 +11,7 @@ Under Construction (25 Sep 09)
   * Daily use
   * Support
   * [FrequentlyAskedQuestions FAQ]
-  * ADB shell
+  * [ADB ADB shell]
   * Features
 
 ----
