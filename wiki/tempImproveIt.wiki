@@ -1,0 +1,24 @@
+#summary Temp work file.
+
+= Introduction =
+
+*Stefan & Aitch are working here.*
+
+
+= Details =
+
+== Contribute ==
+== Getting the source code ==
+
+Follow the instructions on http://source.android.com/download, but use in step "Initializing a Repo client" the "repo init ..." command line given at http://gitorious.org/android-on-freerunner
+
+==Compiling==
+
+Use make TARGET_PRODUCT=freerunner and read the section "Building the code" on http://source.android.com/download for more details. You might need to additional install the liblzo-dev package. 
+
+== Committing changes ==
+== Testing ==
+== Debugging ==
+
+----
+_Comments to: [http://code.google.com/u/hmutch/ Aitch]_
