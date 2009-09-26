@@ -1,9 +1,9 @@
-#summary Android debug bridge can be used to debug and test things on android.
+#summary Android debug bridge (ADB) can be used to debug and test things on android.
 #labels Phase-Deploy
 
 = Introduction =
 
-Here should be something about how to get adb and installing it. A link to the relevant android pages would be good enough I think.
+To install ADB, download the latest version of the Android SDK by following the instructions at http://developer.android.com/sdk. You will find `adb` in the `tools` directory.
 
 = Connecting =
 
@@ -22,7 +22,7 @@ When usb networking has been configured and confirmed working use the following 
 }}}
 
 = Commands =
-Here is a list of commands that works with adb.
+Here is a list of commands that works with adb. Please see http://developer.android.com/guide/developing/tools/adb.html for further details.
 
 == logcat ==
 The logcat command prints the logs from the android phone.
