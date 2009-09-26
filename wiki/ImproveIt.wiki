@@ -7,12 +7,18 @@ Under Construction (25 Sep 09)
 
 = Details =
 
-  * Contribute
-  * Getting the source code
-  * Compiling
-  * Committing changes
-  * Testing
-  * Debugging
+== Contribute ==
+== Getting the source code ==
+
+Follow the instructions on http://source.android.com/download, but use in step "Initializing a Repo client" the "repo init ..." command line given at http://gitorious.org/android-on-freerunner
+
+== Compiling ==
+
+Use "make" :) as given in the section "Building the code" on http://source.android.com/download. You might need to additional install the liblzo-dev package.
+
+== Committing changes ==
+== Testing ==
+== Debugging ==
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
