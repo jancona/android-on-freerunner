@@ -2,6 +2,6 @@
   * [GetIt Get it]
   * [UseIt Use it]
      * [FrequentlyAskedQuestions FAQ]
-     * [ADB ADB shell]
+     * [AndroidDebugBridge ADB shell]
   * [ImproveIt Improve it]
   * [ChangeLog Change log]
