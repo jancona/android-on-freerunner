@@ -1,14 +1,94 @@
 #summary android-on-freerunner, Downloading & installing.
 
-= Introduction =
+*First draft (27 Sep 09)*
 
-Under Construction (25 Sep 09)
+== Before you start ==
 
+*You need:*
+  * A fully charged Openmoko Freerunner GTA02 telephone.
+  * A SD memory card that's supported on the Freerunner. ([http://wiki.openmoko.org/wiki/Supported_microSD_cards You can check here]).
+  * Some way of connecting your Sd card to your computer.
+  * Root access or Superuser rights on your on system.
+  * Not to be afraid of the command line.
 
-= Details =
+If you should need it you can find very comprehensive *additional information*  on most of the points covered below at the [http://wiki.openmoko.org/wiki/Main_Page Openmoko Wiki site]. 
 
-  * Downloading
-  * Installing
+*Be warned!*  Loading a new build is going to mean clearing everything from both your SD card and your telephone's memory - including the bootloader.  Backup any personal files or modified config files you want to keep from your Freerunner now!  Everything else (kernel, file system and bootloader) can be restored by flashing if required.
+
+*Partition and format the SD card*
+
+For Android to work properly the Micro SD Card in your FreeRunner needs to have 2 primary partitions. The first needs to be a VFAT/MSDOS (16 or 32) partition which is used is mounted as '/sdcard', this is used as a  storage area (for pictures, movies, music, etc). The second is an ext3 partition which Android mounts as '/data', this is where it stores settings, caches, etc.
+
+Experience has shown that sizing these at a ratio of 3 to 1 works best. So if you have a 4GB card make a 3GB vfat partition and a 1GB ext3 partion.   Experience has also shown that it is best to delete all existing partitions and create new when installing a new build. _(This greatly helps the testing and bug fixing process)._
+ 
+Comprehensive information on partitioning and formatting your SD card can be found on [http://wiki.openmoko.org/wiki/Android_on_Freerunner#Preparing_the_SD_Card the Openmoko Wiki.]
+  
+== Download it ==
+
+First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
+
+== Installing ==
+
+Start by opening a terminal and change to the directory you downloaded the build file to.  Next you need to attach your squeaky clean, newly formatted SD card to your system. 
+
+To mount it you need to know what device name your system has allocated to it. This can vary due to your distribution's rules and your hardware setup.  If you are not sure then plug in your card then try running -
+{{{
+$ dmesg | tail
+}}}
+
+You should see something like -
+{{{
+scsi 5:0:0:0: Direct-Access     Multi    Flash Reader     1.00 PQ: 0 ANSI: 0
+sd 5:0:0:0: Attached scsi generic sg2 type 0
+usb-storage: device scan complete
+sd 5:0:0:0: [sdb] Attached SCSI removable disk
+sd 5:0:0:0: [sdb] 3862528 512-byte logical blocks: (1.97 GB/1.84 GiB)
+sd 5:0:0:0: [sdb] Assuming drive cache: write through
+sd 5:0:0:0: [sdb] Assuming drive cache: write through
+ sdb: sdb1 sdb2
+}}}
+
+If your system doesn't automatically mount the new partitions then you need to mount the vfat (first) partition as root. Create a directory under /mnt or use an existing one there.  In this case /tmp1  -
+{{{
+# mount /dev/sdb1 /mnt/tmp1
+}}}
+
+Now you need to unpack the files from the build tar that you downloaded. First change to the directory you just mounted -
+{{{
+$ cd /mnt/tmp1
+}}}
+
+Now run the unpack commend as root -
+{{{
+# tar -xvzf /path/to/build/file/build.tar.gz
+}}} 
+
+Don't worry if you see some messages about not being able to change the ownership of files.
+ First move out of the mounted directory -
+{{{
+$ cd ~
+}}}
+
+Now unmount the SD card as root -
+{{{
+# umount /mnt/tmp1
+}}}
+
+Remove the SD card from your system and insert it into the Micro SD card in the Freerunner.  This is located below the SIM card.
+
+When you have reassembled your Freerunner, hold the Aux button (top left) in while you push the Power button (bottom right).  You should now see a menu with several choices, keep pushing the Aux button until you highlight the Option to "Boot from SD card or ?".  While this option is highlighted push the Power button again.
+
+*Now sit back and watch the fun!* Here's a short listing of what you should see during a normal installation:
+ * Several boot messages
+ * A message that the kernel is starting
+ * A scary white screen for what seems forever but is only a few seconds
+ * Lots of scrolling text
+ * That white screen again (don't panic)
+ * An andorid-on-freerunner splash screen! (exactly what depends on how creative Damir's been lately).  This will be there for quite a while on the first boot.
+ * Very fancy Android letters with rippling light effect. 
+ * *Android start screen - locked!*
+
+*Now you can use it!* Go to [UseIt the "Use it" wiki page] to find out how. 
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
