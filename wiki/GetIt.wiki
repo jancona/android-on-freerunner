@@ -19,7 +19,9 @@ If you should need it you can find very comprehensive *additional information*  
 
 For Android to work properly the Micro SD Card in your FreeRunner needs to have 2 primary partitions. The first needs to be a VFAT/MSDOS (16 or 32) partition which is used is mounted as '/sdcard', this is used as a  storage area (for pictures, movies, music, etc). The second is an ext3 partition which Android mounts as '/data', this is where it stores settings, caches, etc.
 
-Experience has shown that sizing these at a ratio of 3 to 1 works best. So if you have a 4GB card make a 3GB vfat partition and a 1GB ext3 partion.   Experience has also shown that it is best to delete all existing partitions and create new when installing a new build. _(This greatly helps the testing and bug fixing process)._
+Experience has shown that sizing these at a ratio of 3 to 1 works best. So if you have a 4GB card make a 3GB vfat partition and a 1GB ext3 partion.   
+
+Experience has also shown that it is best to delete all existing partitions and create new when installing a new build. _(This greatly helps the testing and bug fixing process)._
  
 Comprehensive information on partitioning and formatting your SD card can be found on [http://wiki.openmoko.org/wiki/Android_on_Freerunner#Preparing_the_SD_Card the Openmoko Wiki.]
   
@@ -76,7 +78,7 @@ Now unmount the SD card as root -
 
 Remove the SD card from your system and insert it into the Micro SD card in the Freerunner.  This is located below the SIM card.
 
-When you have reassembled your Freerunner, hold the Aux button (top left) in while you push the Power button (bottom right).  You should now see a menu with several choices, keep pushing the Aux button until you highlight the Option to "Boot from SD card or ?".  While this option is highlighted push the Power button again.
+When you have reassembled your Freerunner, hold the 'Aux button' (top left) in while you push the 'Power button' (bottom right).  You should now see a menu with several choices, keep pushing the Aux button until you highlight the Option to "Boot from microSD card (FAT+ext2)".  While this option is highlighted push the 'Power button' again.
 
 *Now sit back and watch the fun!* Here's a short listing of what you should see during a normal installation:
  * Several boot messages
