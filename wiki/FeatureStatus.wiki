@@ -15,6 +15,7 @@
 || Connectivity || Bluetooth || Unknown || user feedback? ||
 || Connectivity || GPRS || Unknown || user feedback? ||
 || Connectivity || GPS || Unknown || user feedback? ||
+|| Others to add ? || ? || ? || user feedback? ||
 
 ----
 _Comments to: [http://code.google.com/u/niels.heyvaert/ Niels]_
