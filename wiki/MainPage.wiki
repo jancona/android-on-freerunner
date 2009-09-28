@@ -1,15 +1,22 @@
 #summary android-on-freerunner Main Wiki Page
 #labels Featured
 
-= Introduction =
+= Welcome =
 
 Welcome to the Wiki of the Android-on-Freerunner project. This project aims at porting Android to the Openmoko Freerunner. The current release is based on the work done by Koolu for Android Cupcake and includes patches by the community.
 
+= Our focus =
+
 The focus of this Wiki is to centralise Android specific information and how to get it running on the Freerunner. Any general information about the Freeruner device or details which are not specific to this distro can be found on the [http://wiki.openmoko.org Openmoko Wiki]
 
-= Details =
-
 The Wiki includes information on how to [GetIt download and install Android], how to use specific parts (like the ADB shell), what features of the Freerunner are currently functional and how you can contribute to improve the release.
+
+Browse through the menu section on your left to find those details you are looking for.
+
+Google Code [http://code.google.com/p/android-on-freerunner Project Link]
+Google Group [http://groups.google.be/group/android-on-freerunner Mail List]
+Chat [irc://irc.freenode.net/android-on-freerunner Android-on-Freerunner IRC]
+
 
 ----
 _Comments to: [http://code.google.com/u/niels.heyvaert/ Niels]_
