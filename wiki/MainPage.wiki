@@ -9,7 +9,7 @@ Welcome to the Wiki of the Android-on-Freerunner project. This project aims at p
 
 The focus of this Wiki is to centralise Android specific information and how to get it running on the Freerunner. Any general information about the Freeruner device or details which are not specific to this distro can be found on the [http://wiki.openmoko.org Openmoko Wiki]
 
-The Wiki includes information on how to [GetIt download and install Android], how to use specific parts (like the [ADBshell ADB shell]), what features of the Freerunner are currently functional and how you can contribute to improve the release.
+The Wiki includes information on how to [GetIt download and install Android], how to use specific parts (like the [AndroidDebugBridge ADB shell]), what features of the Freerunner are currently functional and how you can contribute to improve the release.
 
 Browse through the menu section on your left to find those details you are looking for.
 
