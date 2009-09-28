@@ -3,5 +3,6 @@
   * [UseIt Use it]
      * [FrequentlyAskedQuestions FAQ]
      * [AndroidDebugBridge ADB shell]
+     * [FeatureStatues Features]
   * [ImproveIt Improve it]
   * [ChangeLog Change log]
