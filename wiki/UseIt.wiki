@@ -12,7 +12,7 @@ Under Construction (25 Sep 09)
   * Support
   * [FrequentlyAskedQuestions FAQ]
   * [AndroidDebugBridge ADB shell]
-  * Features
+  * [FeatureStatus Supported Features]
 
 ----
 _Comments to: [http://code.google.com/u/larlin289/ larlin]_
