@@ -12,6 +12,6 @@
 || SMS || Send long message || Unknown || user feedback? ||
 || SMS || Receive long message || Unknown || user feedback? ||
 || Connectivity || Wifi || Working ||  ||
-|| Connectivity || Bleutooth || Unknown || user feedback? ||
+|| Connectivity || Bluetooth || Unknown || user feedback? ||
 || Connectivity || GPRS || Unknown || user feedback? ||
 || Connectivity || GPS || Unknown || user feedback? ||
