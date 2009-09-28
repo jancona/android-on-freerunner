@@ -13,7 +13,13 @@ The Wiki includes information on how to [GetIt download and install Android], ho
 
 Browse through the menu section on your left to find those details you are looking for.
 
-For comments on Wiki pages you can contact the author of the page (see mail link at the bottom of the pages). For discussing the project, you can join the [http://groups.google.be/group/android-on-freerunner Google Group].
+= Get involved =
+
+We're currently building the Wiki pages. If you think there are ways for us to improve the Wiki, feel free to contact one of the authors (see mail link at the bottom of each page).
+
+The project has its own [http://groups.google.be/group/android-on-freerunner Google Group] which is open for discussion. Come on board and share your experience and questions with other users.
+
+Needless to say the project is also looking for people willing to get their hands dirty on the actual code. Check out the code on [http://gitorious.org/android-on-freerunner Gitorious]. Happy hacking!
 
 For those who want to chat to fellow developers, you can join the dedicated IRC chat channel on irc://irc.freenode.net/android-on-freerunner
 
