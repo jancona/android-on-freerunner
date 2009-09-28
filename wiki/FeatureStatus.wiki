@@ -1,13 +1,17 @@
-#summary One-sentence summary of this page.
+#summary Overview of the Freerunner features and their status on Android.
 
-= Introduction =
-
-Add your content here.
+= Overview =
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+|| *Category* || *Feature* || *Status* || *Comments* ||  
+|| Phone || Incoming Call || Working ||  ||
+|| Phone || Outgoing Call || Working ||  ||
+|| Phone || Second Incoming Call during active call || Unknown || user feedback? ||
+|| SMS || Send || Working ||  ||
+|| SMS || Receive || Working ||  ||
+|| SMS || Send long message || Unknown || user feedback? ||
+|| SMS || Receive long message || Unknown || user feedback? ||
+|| Connectivity || Wifi || Working ||  ||
+|| Connectivity || Bleutooth || Unknown || user feedback? ||
+|| Connectivity || GPRS || Unknown || user feedback? ||
+|| Connectivity || GPS || Unknown || user feedback? ||
