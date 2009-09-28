@@ -15,7 +15,7 @@ Browse through the menu section on your left to find those details you are looki
 
 Google Code [http://code.google.com/p/android-on-freerunner Project Link]
 Google Group [http://groups.google.be/group/android-on-freerunner Mail List]
-Chat [irc://irc.freenode.net/android-on-freerunner Android-on-Freerunner IRC]
+Chat [irc://irc.freenode.net/android-on-freerunner IRC]
 
 
 ----
