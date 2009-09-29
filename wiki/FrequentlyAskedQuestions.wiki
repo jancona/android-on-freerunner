@@ -20,7 +20,7 @@ dfu-util -a u-boot -R -D qi.img
 
   * *Which Videos formats are supported?* This project cannot use non-free codecs due to licensing issues. (We need to research this and find out what works)
 
-  * *I am using Windows 7. How do I ssh/adb into the phone from Windows?* (needs an answer.  Can any M$ users help?)
+  * *I am using Windows 7. How do I ssh/adb into the phone from Windows?* Check out the [http://wiki.openmoko.org/wiki/Neo1973_and_Windows dedicated page Openmoko Wiki].
 
   * *How can I make sure my contacts are not lost?* You could use the tools [http://andappstore.com/AndroidApplications/apps/109392 vcardio] or [https://android-client.forge.funambol.org/ Funambo]. Check out their website to see what fits your purpose. To make sure the contacts are not lost you should backup /data/data/com.android.providers.contacts/databases/contacts.db where the contacts are stored.
 
