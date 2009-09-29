@@ -1,22 +1,25 @@
 #summary Overview of the Freerunner features and their status on Android.
 
+This is the list of features and their status on Android. Please report any functioning or malfuntioning feature on the [http://groups.google.be/group/android-on-freerunner Mailing List] so that this overview is well maintained.
+
 = Overview =
 
 
 || *Category* || *Feature* || *Status* || *Comments* ||  
 || Phone || Incoming Call || Working ||  ||
 || Phone || Outgoing Call || Working ||  ||
-|| Phone || Second Incoming Call during active call || Unknown || user feedback? ||
+|| Phone || Second Incoming Call during active call || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
 || SMS || Send || Working ||  ||
 || SMS || Receive || Working ||  ||
-|| SMS || Send long message || Unknown || user feedback? ||
-|| SMS || Receive long message || Unknown || user feedback? ||
+|| SMS || Send long message || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| SMS || Receive long message || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
 || Contacts || Import SIM Contacts || Partially || Depends on SIM card ||
 || Connectivity || Wifi || Working ||  ||
-|| Connectivity || Bluetooth || Unknown || user feedback? ||
-|| Connectivity || GPRS || Unknown || user feedback? ||
-|| Connectivity || GPS || Unknown || user feedback? ||
-|| Others to add ? || ? || ? || user feedback? ||
+|| Connectivity || Bluetooth || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| Connectivity || GPRS || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| Connectivity || GPS || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| Other || Accelerometers || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| Others to add ? || ? || ? || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
 
 ----
 _Comments to: [http://code.google.com/u/niels.heyvaert/ Niels]_
