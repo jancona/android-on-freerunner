@@ -16,7 +16,7 @@ This is the list of features and their status on Android. Please report any func
 || Contacts || Import SIM Contacts || Partially || Depends on SIM card ||
 || Connectivity || Wifi || Working ||  ||
 || Connectivity || Bluetooth || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
-|| Connectivity || GPRS || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
+|| Connectivity || GPRS || Working || [http://code.google.com/p/cyanogenmod/wiki/APNlist Control listing of APNs] ||
 || Connectivity || GPS || Working||  ||
 || Other || Accelerometers || Unknown || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
 || Others to add ? || ? || ? || [http://groups.google.be/group/android-on-freerunner Send us your feedback] ||
