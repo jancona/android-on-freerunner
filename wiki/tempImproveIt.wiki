@@ -30,7 +30,7 @@ This should give step by step instructions for cloning the repository.
    $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
    }}}
 
-Synchronise the repository. This step may take awhile.
+ Synchronise the repository. This step may take awhile.
    {{{
    $ repo sync
    }}}
