@@ -5,20 +5,24 @@
 *Stefan & Aitch are working here.*
 
 
-= Details =
-
-== Contribute ==
-== Getting the source code ==
-
-Follow the instructions on http://source.android.com/download, but use in step "Initializing a Repo client" the "repo init ..." command line given at http://gitorious.org/android-on-freerunner
-
+== Why use Version Control? ==
+== Centralised v Distributed ==
+== Introduction to Git ==
+== Installing Git ==
+== Making your own repository ==
+This should give step by step istructs for cloning the repository.
+ 
+ _Follow the instructions on http://source.android.com/download, but use in step "Initializing a Repo client" the "repo init ..." command line given at http://gitorious.org/android-on-freerunner_
+== Modifying ==
+== Branching ==
+== Team Collaboration ==
 ==Compiling==
+Again, step by step and specific.
 
-Use make TARGET_PRODUCT=freerunner and read the section "Building the code" on http://source.android.com/download for more details. You might need to additional install the liblzo-dev package. 
-
-== Committing changes ==
+ _Use make TARGET_PRODUCT=freerunner and read the section "Building the code" on http://source.android.com/download for more details. You might need to additional install the liblzo-dev package._
 == Testing ==
 == Debugging ==
+== Committing changes ==
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
