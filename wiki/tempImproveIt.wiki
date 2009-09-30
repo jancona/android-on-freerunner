@@ -8,8 +8,16 @@
 == Why use Version Control? ==
 == Centralised v Distributed ==
 == Introduction to Git ==
-== Installing Git ==
-== Project layout & Branches ==
+== Introduction to Repo ==
+== Installing Git & Repo ==
+
+Installing Repo:
+ {{{
+ $ curl http://android.git.kernel.org/repo >~/bin/repo
+ $ chmod a+x ~/bin/repo
+ }}}
+
+== Project layout & branches ==
 Based on Android main project [http://source.android.com/projects Link to Android Project page]
 
 The projects are grouped in three main categories *with android-on-freerunner specific projects*:
