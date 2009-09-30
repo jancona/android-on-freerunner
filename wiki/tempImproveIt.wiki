@@ -9,12 +9,33 @@
 == Centralised v Distributed ==
 == Introduction to Git ==
 == Installing Git ==
+== Project layout & Branches ==
+Based on Android main project [http://source.android.com/projects Link to Android Project page]
+
+The projects are grouped in three main categories *with android-on-freerunner specific projects*:
+ * Core projects:  These projects make up the foundation of the Android platform.
+ * External projects:  The Android Open Source Project makes use of many other open source projects.
+ * Packages:  These projects are standard Android applications and services. 
+
 == Making your own repository ==
-This should give step by step istructs for cloning the repository.
+This should give step by step instructions for cloning the repository.
  
- _Follow the instructions on http://source.android.com/download, but use in step "Initializing a Repo client" the "repo init ..." command line given at http://gitorious.org/android-on-freerunner_
+ Create an empty directory to hold your working files.
+   {{{
+   $ mkdir aof_source
+   $ cd aof_source
+   }}}
+ Initialise repository, linking it to the cupcake branch where current development id focused. 
+   {{{
+   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
+   }}}
+
+Synchronise the repository. This step may take awhile.
+   {{{
+   $ repo sync
+   }}}
+
 == Modifying ==
-== Branching ==
 == Team Collaboration ==
 ==Compiling==
 Again, step by step and specific.
