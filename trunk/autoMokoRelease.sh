@@ -26,5 +26,5 @@ zip -r ../$FILENAME .                                                           
 cd ..
 tar -czvf $FILENAME.tar.gz weeklyBuild/*
 
-echo ./googlecode_upload.py -s "$SUMMARY" -p $PROJECT -u $USER -w $PASSWORD -l "$LABELS, OpSys-Windows" $FILENAME.zip
-echo ./googlecode_upload.py -s "$SUMMARY" -p $PROJECT -u $USER -w $PASSWORD -l "$LABELS, OpSys-Linux" $FILENAME.tar.gz
+./googlecode_upload.py -s "$SUMMARY" -p $PROJECT -u $USER -w $PASSWORD -l "$LABELS, OpSys-Windows" $FILENAME.zip
+./googlecode_upload.py -s "$SUMMARY" -p $PROJECT -u $USER -w $PASSWORD -l "$LABELS, OpSys-Linux" $FILENAME.tar.gz
