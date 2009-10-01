@@ -1,0 +1,8 @@
+#summary Page for art for android-on-freerunner
+
+= Introduction =
+
+Here is a page with images/sound/logs and such. This page should contain mostly finished or in use art.
+
+Here is the logo currently used on this page:
+http://code.google.com/p/android-on-freerunner/source/browse/wiki/logo_small.png
