@@ -22,7 +22,7 @@ dfu-util -a u-boot -R -D qi.img
 
   * *I am using Windows 7. How do I ssh/adb into the phone from Windows?* Check out the [http://wiki.openmoko.org/wiki/Neo1973_and_Windows dedicated Openmoko Wiki page].
 
-  * *How can I make sure my contacts are not lost?* You could use the tools [http://andappstore.com/AndroidApplications/apps/109392 vcardio] or [https://android-client.forge.funambol.org/ Funambo] or [http://www.dusystems.com/importContacts.html Android Contacts Import] by DuSystems. Check out their website to see what fits your purpose. To make sure the contacts are not lost you should backup /data/data/com.android.providers.contacts/databases/contacts.db where the contacts are stored.
+  * *How can I make sure my contacts are not lost?* You could use the tools [http://andappstore.com/AndroidApplications/apps/109392 vcardio] or [https://android-client.forge.funambol.org/ Funambo] or [http://www.dusystems.com/importContacts.html Android Contacts Import]. Check out their website to see what fits your purpose. To make sure the contacts are not lost you should backup /data/data/com.android.providers.contacts/databases/contacts.db where the contacts are stored.
 
 ----
      If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
