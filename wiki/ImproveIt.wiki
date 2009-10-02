@@ -5,14 +5,22 @@
 Under Construction (25 Sep 09)
 
 
-= Details =
+= Local configuration =
 
-== Contribute ==
-== Getting the source code ==
-== Compiling ==
-== Committing changes ==
-== Testing ==
-== Debugging ==
+* Install all prerquisites
+
+* Install Repo
+
+* Initialise your local repository
+
+= Get the code =
+
+= Compile the code =
+
+= Committing changes =
+
+= Testing =
+= Debugging =
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
