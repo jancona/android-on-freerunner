@@ -23,7 +23,6 @@ cp out/target/product/freerunner/*.img weeklyBuild/
 md5sum weeklyBuild/boot/uImage-GTA02.bin weeklyBuild/ramdisk.img weeklyBuild/uImage weeklyBuild/userdata.img weeklyBuild/kernel.img weeklyBuild/qi.img  weeklyBuild/system.img weeklyBuild/uImage.bin > weeklyBuild/md5sums
 cd weeklyBuild
 TRIES=0
-FAIL=0
 while [[ $? != 0 && $TRIES < 5 ]]      #Retry the buggy zip command 5 times hope that it works one of the times....
 do 
   let TRIES=TRIES+1 
