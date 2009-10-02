@@ -2,8 +2,32 @@
 
 = Introduction =
 
-Here is a page with images/sound/logs and such. This page should contain mostly finished or in use art.
+This page is under the major construction.
+Please refer to a Deviant Art page for this project [http://androidonfreerunner.deviantart.com/] for some graphics. The reason why DeviantArt was used as a graphics storage was to attract the viewers and possible artists who would like to contribute to this project. 
+
+Currently, there are 4 categories used on a Deviant Art page
+-Blueprints
+-Finals
+-WallPapers
+-Misc
+
+*Blueprints are the rough ideas and drawings that someone may like to use and enhance with the textures and so on. All blueprints are 3 color blueprints, having the Android's logo colors:
+
+(blue) R:48 G:88 B:124
+(green) R:151 G:192 B:61
+(white) R:255 G:255 B:255
+
+*Finals are the blueprints turned into a final image, with textures, shadows, and so on
+
+*WallPapers are the wallpapers that users may use for their mobile devices
+
+*Misc (self-explanatory)
+
 
 Here is the logo currently used on this page:
 
 [http://android-on-freerunner.googlecode.com/svn/wiki/logo_small.png]
+
+Edit:
+The wiki pages should really use this logo instead, to be updated !
+[http://imgur.com/S2e5C.png]
