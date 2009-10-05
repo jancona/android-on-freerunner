@@ -1,10 +1,12 @@
 #summary Page for art for android-on-freerunner
 
-'''Bold text'''== Introduction [[art for Android on FreeRunner]] ==
+== Introduction ==
 
 
 This page is under the major construction.
-Please refer to a Deviant Art page for this project [http://androidonfreerunner.deviantart.com/] for some graphics. The reason why DeviantArt was used as a graphics storage was to attract the viewers and possible artists who would like to contribute to this project. 
+Please refer to a Deviant Art page for this project 
+* [http://androidonfreerunner.deviantart.com/ Android on FreeRunner, art]
+for some graphics. The reason why DeviantArt was used as a graphics storage was to attract the viewers and possible artists who would like to contribute to this project. 
 
 Currently, there are 4 categories used on a Deviant Art page
 -Blueprints
