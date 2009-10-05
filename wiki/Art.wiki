@@ -23,11 +23,3 @@ Currently, there are 4 categories used on a Deviant Art page
 
 *Misc (self-explanatory)
 
-
-Here is the logo currently used on this page:
-
-[http://android-on-freerunner.googlecode.com/svn/wiki/logo_small.png]
-
-Edit:
-The wiki pages should really use this logo instead, to be updated !
-[http://imgur.com/S2e5C.png]
