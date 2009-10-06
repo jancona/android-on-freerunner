@@ -17,7 +17,7 @@ Browse through the menu section on your left to find those details you are looki
 
 We're currently building the Wiki pages. If you think there are ways for us to improve the Wiki, feel free to contact one of the authors (see mail link at the bottom of each page).
 
-The project has its own [http://groups.google.be/group/android-on-freerunner Google Group] which is open for discussion. Come on board and share your experience and questions with other users.
+The project has its own [http://groups.google.com/group/android-on-freerunner Google Group] which is open for discussion. Come on board and share your experience and questions with other users.
 
 Needless to say the project is also looking for people willing to get their hands dirty on the actual code. Check out the code on [http://gitorious.org/android-on-freerunner Gitorious]. Happy hacking!
 
