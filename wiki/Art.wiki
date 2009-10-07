@@ -25,3 +25,13 @@ Currently, there are 4 categories used on a Deviant Art page
 *WallPapers are the wallpapers that users may use for their mobile devices
 
 *Misc (self-explanatory)
+
+
+
+
+TO DO:  
+-work on this page
+-find the most proper resolution for the wallpapers (it should be 640:420)
+-find/test the frequency distribution of the freerunner speakers for the ringtones.
+
+For any questions and concerns about the art, contact olejar DOT damir AT gmail DOT com
