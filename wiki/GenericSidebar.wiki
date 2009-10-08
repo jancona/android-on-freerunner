@@ -8,5 +8,6 @@
     * [AndroidDebugBridge ADB shell]
     * [FeatureStatus Features]
   * [ImproveIt Improve it]
+  * [BuildIt Build it]
   * [Art Art]
   * [ChangeLog Change log]
