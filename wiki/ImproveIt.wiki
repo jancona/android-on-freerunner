@@ -1,26 +1,20 @@
-#summary android-on-freerunner - Testing, debugging & contributing patches
+#summary android-on-freerunner - Downloading, modifying & contributing patches
 
 = Introduction =
 
 Under Construction (25 Sep 09)
 
 
-= Local configuration =
-
-* Install all prerquisites
-
-* Install Repo
-
-* Initialise your local repository
-
-= Get the code =
-
-= Compile the code =
-
-= Committing changes =
-
-= Testing =
-= Debugging =
+== Why use Version Control? ==
+== Centralised v Distributed ==
+== Introduction to Git ==
+== Introduction to Repo ==
+== Installing Git & Repo ==
+== Project layout & branches ==
+== Making your own repository ==
+== Modifying ==
+== Team Collaboration ==
+== Pushing & Committing changes ==
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
