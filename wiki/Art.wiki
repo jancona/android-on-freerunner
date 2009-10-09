@@ -20,11 +20,9 @@ Currently, there are 4 categories used on a Deviant Art page
 (green) R:151 G:192 B:61
 (white) R:255 G:255 B:255
 
-*Finals are the blueprints turned into a final image, with textures, shadows, and so on
-
-*WallPapers are the wallpapers that users may use for their mobile devices
-
-*Misc (self-explanatory)
+* Finals are the blueprints turned into a final image, with textures, shadows, and so on
+* WallPapers are the wallpapers that users may use for their mobile devices
+* Misc (self-explanatory)
 
 
 
@@ -34,4 +32,6 @@ TO DO:
 -find the most proper resolution for the wallpapers (it should be 640:420)
 -find/test the frequency distribution of the freerunner speakers for the ringtones.
 
-For any questions and concerns about the art, contact olejar DOT damir AT gmail DOT com
+
+----
+_Comments and questions to: [http://code.google.com/u/olejar.damir/ Olejar Damir]_
