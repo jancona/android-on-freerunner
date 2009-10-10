@@ -4,7 +4,7 @@
     * [GetIt#Download_it Download]
     * [GetIt#Installing Installing]
   * [UseIt Use it]
-    * [UseIt#Post install set-up]
+    * [UseIt#Post_install_set-up Post install set-up]
     * [Support Support]
     * [FrequentlyAskedQuestions FAQ]
     * [AndroidDebugBridge ADB shell]
