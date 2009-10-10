@@ -1,18 +1,55 @@
 #summary android-on-freerunner, Set-up, use & support.
 
-= Introduction =
+*Under Construction (10 Oct 09)*
 
-Under Construction (25 Sep 09)
+== Post install set-up ==
 
+How you set up and use your system is up to you, but here are a few pointers that might help you out the first time you load Android onto your Freerunner. _It might even help all the other times too!_
 
-= Details =
+The initial screen is locked and tells you to `Press the Menu key` to unlock. Push the Power button on your Freerunner to unlock the screen.
 
-  * Post install set-up
-  * Daily use
-  * Support
-  * [FrequentlyAskedQuestions FAQ]
-  * [AndroidDebugBridge ADB shell]
-  * [FeatureStatus Supported Features]
+Here is a short listing of the button options:
+|| Menu || Power - short ||
+|| Back || Aux - short ||
+|| Suspend || Power = medium (~2 sec) ||
+|| Home || Aux - medium ||
+|| Shutdown || Power - long (> 3 sec) ||
+|| Switch apps || Aux - long ||
+
+The medium-length functions can be hard to control. An alternative way to invoke suspend is to hold Aux and then press Power. If you set home button behaviour to `Home, then sleep` under spare parts, this works to get the home screen also.
+
+You do most configuration using the `Settings` menu.  Either pull up the bottom tab on the screen or give the Power button a short press and tap `Settings`
+
+Some of the things you should do here are:
+ * Under `Sound & display` scroll all the way down to `Screen timeout` and set the screen timeout to something more than the default 1 minute (at least while your ~~playing about~~ studying).
+ * While your there you might want to adjust the brightness to make reading all these menu options easier.
+ * Now backup the menu (using the Aux button) and choose `Applications` then `Development`.  Under here you want to switch on `Stay awake` so that your screen stays visible while connected to your main system.
+ * Also under `Development` you might want to activate the `Unknown sources` option as you will only be able to install non_Market applications!
+
+Now that your phone isn't going to keep blanking out on you it's time to customize it to your liking. You will want to:
+ * Choose your phones language under `Locale & text`
+ * Set your timezone and time/date formats under `Date & time settings`
+ * You may have to switch off `Automatic`.  This doesn't work with my provider and I need to set time and date manually.
+
+== Setting up Wifi and GPRS ==
+
+_To be done_
+
+== Daily use ==
+
+_To be done_
+
+== Support ==
+ Check out the options on our [Support Support page.]
+
+== FAQ ==
+ The answer to your question may already be on our [FrequentlyAskedQuestions Frequently Asked Questions page.]
+
+== Connecting to your Freerunner ==
+ To connect to your Android powered phone using a usb cable you issue shell commands using ADB (Android Debug Bridge).  [AndroidDebugBridge You can find the details here.]
+
+== Supported Features ==
+ Android on Freerunner is under heavy development. You can find an updated list of [FeatureStatus Supported Features here].
 
 ----
 _Comments to: [http://code.google.com/u/larlin289/ larlin]_
