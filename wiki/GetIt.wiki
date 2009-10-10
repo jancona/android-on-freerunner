@@ -1,6 +1,6 @@
 #summary android-on-freerunner, Downloading & installing.
 
-*First draft (27 Sep 09)*
+*Updated (10 Oct 09) - added reference to weekly builds*
 
 == Before you start ==
 
@@ -28,6 +28,10 @@ Comprehensive information on partitioning and formatting your SD card can be fou
 == Download it ==
 
 First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
+
+*Now you make your first choice*
+ # Current featured builds are far from stable, but they are the best we have and will be valid for normal use.
+ # Weekly builds are a snapshot of the repository as it stands on a Sunday night, so they could be broken if the developers are in the middle of something big.
 
 == Installing ==
 
