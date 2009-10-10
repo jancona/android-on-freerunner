@@ -1,17 +1,46 @@
 #summary android-on-freerunner - Downloading, modifying & contributing patches
 
-= Introduction =
+*Under Construction (10 Oct 09) - very rough draft*
 
-Under Construction (25 Sep 09)
-
-
-== Why use Version Control? ==
-== Centralised v Distributed ==
-== Introduction to Git ==
-== Introduction to Repo ==
+== The basics ==
+ === Why use Version Control? ===
+ === Centralised v Distributed ===
+ === Introduction to Git ===
+ === Introduction to Repo ===
 == Installing Git & Repo ==
+
+Installing Repo:
+ {{{
+ $ curl http://android.git.kernel.org/repo >~/bin/repo
+ $ chmod a+x ~/bin/repo
+ }}}
+
 == Project layout & branches ==
+
+Based on Android main project [http://source.android.com/projects Link to Android Project page]
+
+The projects are grouped in three main categories *with android-on-freerunner specific projects*:
+ * Core projects:  These projects make up the foundation of the Android platform.
+ * External projects:  The Android Open Source Project makes use of many other open source projects.
+ * Packages:  These projects are standard Android applications and services. 
+
 == Making your own repository ==
+
+ Create an empty directory to hold your working files.
+   {{{
+   $ mkdir aof_source
+   $ cd aof_source
+   }}}
+ Initialise repository, linking it to the cupcake branch where current development is focused. 
+   {{{
+   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
+   }}}
+
+ Synchronise the repository. _This step may take awhile._
+   {{{
+   $ repo sync
+   }}}
+
 == Modifying ==
 == Team Collaboration ==
 == Pushing & Committing changes ==
