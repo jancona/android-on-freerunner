@@ -26,6 +26,20 @@ dfu-util -a u-boot -R -D qi.img
 
   * *I get "No contacts on sim" even when I know there are contacts on the sim card.* To import contacts from sim card the gsm firmware on the freerunner needs to be updated. [http://wiki.openmoko.org/wiki/GSM/Flashing Here] is a guide on the openmoko wiki about how to update the gsm firmware. If it still doesn't work after updating please file a issuereport stating that you have updated.
 
+  * *No hebrew chars are showed on web pages* This because the android release does not have a hebrew font. The following describes how to download and install a font that fixes this.
+    # Download and unpack http://code.google.com/p/android-on-freerunner/source/browse/wiki/hebdroid.zip onto SD
+    # adb shell
+    # Use following commands
+    {{{
+    mount -o rw,remount -t yaffs2 /dev/block/mtdblock3 /system
+    cat /sdcard/DroidSans-Bold.ttf > /system/fonts/DroidSans-Bold.ttf
+    cat /sdcard/DroidSansMono.ttf > /system/fonts/DroidSansMono.ttf
+    cat /sdcard/DroidSans.ttf > /system/fonts/DroidSans.ttf
+    cat /sdcard/DroidSerif-Bold.ttf > /system/fonts/DroidSerif-Bold.ttf
+    cat /sdcard/DroidSerif-Regular.ttf > /system/fonts/DroidSerif-Regular.ttf
+    reboot
+    }}}
+
 ----
      If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
 ----
