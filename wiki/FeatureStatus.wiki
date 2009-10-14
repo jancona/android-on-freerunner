@@ -1,6 +1,6 @@
 #summary Overview of the Freerunner features and their status on Android.
 
-This is the list of features and their status on Android. Please report any functioning or malfuntioning feature on the [http://groups.google.be/group/android-on-freerunner Mailing List] so that this overview is well maintained.
+This is the list of features and their status on Android. Please report any functioning or malfuntioning feature on the [http://groups.google.com/group/android-on-freerunner Mailing List] so that this overview is well maintained.
 
 = Overview =
 
