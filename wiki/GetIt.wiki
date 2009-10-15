@@ -2,7 +2,7 @@
 
 *Updated (10 Oct 09) - added reference to weekly builds*
 
-== Before you start ==
+== 1. Before you start ==
 
 *You need:*
   * A fully charged Openmoko Freerunner GTA02 telephone.
@@ -13,9 +13,21 @@
 
 If you should need it you can find very comprehensive *additional information*  on most of the points covered below at the [http://wiki.openmoko.org/wiki/Main_Page Openmoko Wiki site]. 
 
-*Be warned!*  Loading a new build is going to mean clearing everything from both your SD card and your telephone's memory - including the bootloader.  Backup any personal files or modified config files you want to keep from your Freerunner now!  Everything else (kernel, file system and bootloader) can be restored by flashing if required.
+=== 1.1 Backup your data ===
 
-*Partition and format the SD card*
+*Be warned!*  Loading a new build means clearing everything from your SD card and your telephone's memory, including the bootloader. Backup any personal files or modified config files you want to keep from your Freerunner now!
+
+To back up your data, create a local directory to store the data and pull the data from your Android phone using ADB.
+
+{{{
+$ mkdir backup
+$ mkdir backup/data
+$ mkdir backup/app
+$ adb pull /data/data/ backup/data/
+$ adb pull /data/app/ backup/app/
+}}}
+
+=== 1.2 Partition and format the SD card ===
 
 For Android to work properly the Micro SD Card in your FreeRunner needs to have 2 primary partitions. The first needs to be a VFAT/MSDOS (16 or 32) partition which is used is mounted as '/sdcard', this is used as a  storage area (for pictures, movies, music, etc). The second is an ext3 partition which Android mounts as '/data', this is where it stores settings, caches, etc.
 
@@ -25,7 +37,7 @@ Experience has also shown that it is best to delete all existing partitions and 
  
 Comprehensive information on partitioning and formatting your SD card can be found on [http://wiki.openmoko.org/wiki/Android_on_Freerunner#Preparing_the_SD_Card the Openmoko Wiki.]
   
-== Download it ==
+== 2. Download ==
 
 First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
 
@@ -33,7 +45,7 @@ First step is to download the latest build version [http://code.google.com/p/and
  # Current featured builds are far from stable, but they are the best we have and will be valid for normal use.
  # Weekly builds are a snapshot of the repository as it stands on a Sunday night, so they could be broken if the developers are in the middle of something big.
 
-== Installing ==
+== 3. Installation ==
 
 Start by opening a terminal and change to the directory you downloaded the build file to.  Next you need to attach your squeaky clean, newly formatted SD card to your system. 
 
@@ -83,6 +95,8 @@ Now unmount the SD card as root -
 
 Remove the SD card from your system and insert it into the Micro SD card in the Freerunner.  This is located below the SIM card.
 
+== 4. Go! == 
+
 When you have reassembled your Freerunner, hold the 'Aux button' (top left) in while you push the 'Power button' (bottom right).  You should now see a menu with several choices, keep pushing the Aux button until you highlight the Option to "Boot from microSD card (FAT+ext2)".  While this option is highlighted push the 'Power button' again.
 
 *Now sit back and watch the fun!* Here's a short listing of what you should see during a normal installation:
@@ -95,7 +109,19 @@ When you have reassembled your Freerunner, hold the 'Aux button' (top left) in w
  * Very fancy Android letters with rippling light effect. 
  * *Android start screen - locked!*
 
-*Now you can use it!* Go to [UseIt the "Use it" wiki page] to find out how. 
+*Now you can use it!* Go to [UseIt Use it] page to find out how. 
+
+=== 4.1 Restore your data ===
+
+To restore your data, push your backup to your Android phone using ADB.
+
+{{{
+$ cd backup
+$ adb push backup/data /data/data/
+$ adb push backup/app /data/app/
+$ adb shell sync
+$ adb shell reboot
+}}}
 
 ----
 _Comments to: [http://code.google.com/u/hmutch/ Aitch]_
