@@ -111,6 +111,8 @@ When you have reassembled your Freerunner, hold the 'Aux button' (top left) in w
 
 *Now you can use it!* Go to [UseIt Use it] page to find out how. 
 
+*Note* The first boot takes *much* longer than subsequent ones, so don't worry.
+
 === Restore your data ===
 
 To restore your data, push your backup to your Android phone using ADB.
