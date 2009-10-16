@@ -27,8 +27,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || SMS Unread Count || [http://android.kanokgems.com/sms-unread-count Download from developer] || Overlays the number of unread SMS's on the Messages icon ||
 || VcardIO || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
 || WiFi Buddy || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A WiFi scanning tool which shows extra info on APs ||
-|| SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings ||
-|| || || plus explanations of what they are for!||
+|| SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings <br /> plus explanations of what they are for. ||
 || SIM Checker || [http://andappstore.com/AndroidApplications/apps/SIM_Checker Download from AndAppStore] || sends an SMS to a pre-defined number with GPS coordinates ||
 || || ||if a different SIM is put into the phone ||
 || Jabiru || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) ||
