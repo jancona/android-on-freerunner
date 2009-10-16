@@ -19,6 +19,33 @@ Not being an official Android port, you cannot access the Android Market from yo
 
 == On a FreeRunner near you! ==
 
-Here are some of the applications android-on-freerunner users have recommended.
+Here are some of the applications android-on-freerunner users have recommended:
 
-*Coming soon!*
+|| *Application* || *Link* || *Details* ||
+|| Swift || [http://andappstore.com/AndroidApplications/apps/Swift_Twitter_Client Download from AndAppStore] || A very good Twitter client for Android ||
+|| GPS Status || [http://andappstore.com/AndroidApplications/apps/GPS_status Download from AndAppStore] || The name says it all ||
+|| SMS Unread Count || [http://android.kanokgems.com/sms-unread-count Download from developer] || Overlays the number of unread SMS's on the Messages icon ||
+|| VcardIO || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
+|| WiFi Buddy || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A WiFi scanning tool which shows extra info on APs ||
+|| SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings ||
+|| || || plus explanations of what they are for!||
+|| SIM Checker || [http://andappstore.com/AndroidApplications/apps/SIM_Checker Download from AndAppStore] || sends an SMS to a pre-defined number with GPS coordinates ||
+|| || ||if a different SIM is put into the phone ||
+|| Jabiru || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) ||
+|| || || *This app has been reported as crashing*  Feedback please ] ||
+|| AndNav2 || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
+|| Puzzles || [http://www.androidfreeware.org/download/puzzles Download from Android Freeware Directory] || A collection of 27 different puzzle games. You can ||
+|| || || [http://www.chiark.greenend.org.uk/~sgtatham/puzzles/ find explanations of the games here] ||
+|| Bookworm || [http://www.phoload.com/software/669-bookworm/view Download from phoload] || A general purpose dictionary program. You can ||
+|| || || [http://sites.google.com/site/pskink/home/bookworm-dictionary/WordNet.db?attredirects=0 download the Wordnet dictionary database] ||
+|| TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use
+Internet sites and ||
+|| || || services anonymously from a mobile device ||
+|| apndroid || [http://code.google.com/p/apndroid/ Download from the project homepage] || Enables/disables APNs to connect to internet ||
+|| TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use
+Internet sites and ||
+|| || || services anonymously from a mobile device ||
+
+If you have any applications to add,  or comments/updates on the ones here, then [http://groups.google.com/group/android-on-freerunner send them to us here.]
+
+----
