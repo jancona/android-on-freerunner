@@ -12,7 +12,9 @@ Not being an official Android port, you cannot access the Android Market from yo
 
 || *Name* || *Website* || *Client* ||
 || AndAppStore || [http://andappstore.com/] || [http://andappstore.com/AndroidApplications/apps/AndAppStore_Client AndAppStore Client] ||
+<wiki:comment>
 || AppsLib || [http://appslib.com/] || [http://appslib.com/download/appslib.apk AppsLib client] ||
+</wiki:comment>
 || Slide^ME^ || [http://slideme.org/] || [http://slideme.org/sam2.apk SAM Client] ||
 
 == On a FreeRunner near you! ==
