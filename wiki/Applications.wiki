@@ -1,0 +1,22 @@
+#summary List of android applications for your Freerunner
+
+= Introduction =
+
+Under construction (16 Oct 09)
+
+== Application Stores ==
+
+Not being an official Android port, you cannot access the Android Market from your Freerunner phone.  Here are some alternative application stores that you will be able to download from.  Also shown are the links to their client programs which you can install on your phone.
+
+*Remember* you need to activate the ´Unknown sources´ option under ´Development´ before you can load non-Market programs.  
+
+|| *Name* || *Website* || *Client* ||
+|| AndAppStore || [http://andappstore.com/] || [http://andappstore.com/AndroidApplications/apps/AndAppStore_Client AndAppStore Client] ||
+|| AppsLib || [http://appslib.com/] || [http://appslib.com/download/appslib.apk AppsLib client] ||
+|| Slide^ME^ || [http://slideme.org/] || [http://slideme.org/sam2.apk SAM Client] ||
+
+== On a FreeRunner near you! ==
+
+Here are some of the applications android-on-freerunner users have recommended.
+
+*Coming soon!*
