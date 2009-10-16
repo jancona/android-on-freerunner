@@ -5,6 +5,7 @@
     * [GetIt#Installing Installing]
   * [UseIt Use it]
     * [UseIt#Post_install_set-up Post install set-up]
+    * [Applications Applications]
     * [Support Support]
     * [FrequentlyAskedQuestions FAQ]
     * [AndroidDebugBridge ADB shell]
