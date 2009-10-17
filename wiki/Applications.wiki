@@ -33,6 +33,9 @@ Here are some of the applications android-on-freerunner users have recommended:
 || Bookworm || [http://www.phoload.com/software/669-bookworm/view Download from phoload] || A general purpose dictionary program. You can <br /> [http://sites.google.com/site/pskink/home/bookworm-dictionary/WordNet.db?attredirects=0 download the Wordnet dictionary database] ||
 || TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use Internet sites and <br /> services anonymously from a mobile device ||
 || apndroid || [http://code.google.com/p/apndroid/ Download from the project homepage] || Enables/disables APNs to connect to internet ||
+|| Nightclock || [http://doug.ricket.com/android/ Download from developer] || Not sure what this does, but you can let me know ||
+|| Lock2 || [http://groups.google.com/group/lock2 Download from project page] || A screen locker with lots of fun themes ||
+|| Tone Picker || [http://android.hlidskialf.com/software/tonepicker Download from developer] || Create ringtones and get full control over volume settings ||
 
 ----
 If you have any applications to add,  or comments/updates on the ones here, then [http://groups.google.com/group/android-on-freerunner send them to us here.]
