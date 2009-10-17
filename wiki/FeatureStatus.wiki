@@ -17,7 +17,7 @@ This is the list of features and their status on Android. Please report any func
 || SMS || Receive long message || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
 || Contacts || Import SIM Contacts || <font color="Orange">*Partially*</font> || Depends on SIM card ||
 || Connectivity || Wifi || <font color="GREEN">*Working*</font> ||  ||
-|| Connectivity || Bluetooth || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
+|| Connectivity || Bluetooth || <font color="Orange">*Partially*</font> || No sound over Bluetooth ||
 || Connectivity || GPRS || <font color="GREEN">*Working*</font> || [http://code.google.com/p/cyanogenmod/wiki/APNlist Control listing of APNs] ||
 || Connectivity || GPS || <font color="GREEN">*Working*</font>  ||  ||
 || Other || Accelerometers || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
