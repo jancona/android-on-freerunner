@@ -17,14 +17,13 @@ If you should need it you can find very comprehensive *additional information*  
 
 *Be warned!*  Loading a new build means clearing everything from your SD card and your telephone's memory, including the bootloader. Backup any personal files or modified config files you want to keep from your Freerunner now!
 
-To back up your data, create a local directory to store the data and pull the data from your Android phone using ADB.
+To back up your contacts and SMS data, create a local directory to store the data and pull the data from your Android phone using ADB.
 
 {{{
 $ mkdir backup
 $ mkdir backup/data
-$ mkdir backup/app
-$ adb pull /data/data/ backup/data/
-$ adb pull /data/app/ backup/app/
+$ adb pull /data/data/com.android.providers.contacts/databases/contacts.db backup/data/contacts.db
+$ adb pull /data/data/com.android.providers.telephony/databases/mmssms.db backup/app/mmssms.db
 }}}
 
 === Partition and format the SD card ===
@@ -115,12 +114,12 @@ When you have reassembled your Freerunner, hold the 'Aux button' (top left) in w
 
 === Restore your data ===
 
-To restore your data, push your backup to your Android phone using ADB.
+To restore your contacts and SMS data, push your backup to your Android phone using ADB.
 
 {{{
 $ cd backup
-$ adb push backup/data /data/data/
-$ adb push backup/app /data/app/
+$ adb push backup/data/contacts.db /data/data/com.android.providers.contacts/databases/contacts.db
+$ adb push backup/data/mmssms.db /data/data/com.android.providers.contacts/databases/mmssms.db
 $ adb shell sync
 $ adb shell reboot
 }}}
