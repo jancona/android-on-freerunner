@@ -18,6 +18,8 @@ Here is a short listing of the button options:
 
 The medium-length functions can be hard to control. An alternative way to invoke suspend is to hold Aux and then press Power. If you set home button behaviour to `Home, then sleep` under spare parts, this works to get the home screen also.
 
+*Configuration*
+
 You do most configuration using the `Settings` menu.  Either pull up the bottom tab on the screen or give the Power button a short press and tap `Settings`
 
 Some of the things you should do here are:
@@ -33,7 +35,29 @@ Now that your phone isn't going to keep blanking out on you it's time to customi
 
 == Setting up Wifi and GPRS ==
 
-_To be done_
+*Wifi*
+
+You should be able to connect to open networks out of the box.  WEP & WAP networks have all been reported to work but there are many variables as to how they are set up and it may need you to modify the wpa_supplicant.conf file and copy it to the phone.
+
+{{{
+adb pull /etc/wifi/wpa_supplicant.conf
+}}}
+Edit it locally using your favourite editor, then:
+{{{
+adb push wpa_supplicant.conf /data/misc/wifi/
+}}}
+
+*GPRS*
+
+Yet another area which works but has a whole lot of variables which are nothing to do with android-on-freerunner! There may also be a problem getting GPRS to work with certain SIM cards.
+
+A comprehensive list of APN details is included and this should be filtered depending on your Country (MCC) and Carrier (MNC) codes reported by your phone.  If they are already in the list then you should see it under `Settings, Wireless controls, Mobile networks, Access Point Names`.  Select by tapping the button next to the one you want to use.
+
+(*Note* There are still some stability issues around GPRS.)
+
+If your Carrier is not automatically found then you will have to contact them for the correct details and add them manually. Push the `Power` button to bring up the menu and select `New APN`.  Don't forget to pass on the details so that it can be added for future releases.  
+
+We are currently using the control list maintained by cyanogenmod - see the link to the APN control list under [FeatureStatus the Supported Feature page].
 
 == Daily use ==
 
