@@ -23,7 +23,7 @@ To back up your contacts and SMS data, create a local directory to store the dat
 $ mkdir backup
 $ mkdir backup/data
 $ adb pull /data/data/com.android.providers.contacts/databases/contacts.db backup/data/contacts.db
-$ adb pull /data/data/com.android.providers.telephony/databases/mmssms.db backup/app/mmssms.db
+$ adb pull /data/data/com.android.providers.telephony/databases/mmssms.db backup/data/mmssms.db
 }}}
 
 === Partition and format the SD card ===
