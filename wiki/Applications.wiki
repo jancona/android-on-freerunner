@@ -37,7 +37,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || Nightclock || [http://doug.ricket.com/android/ Download from developer] || Turns your phone into a bedside alarm clock that plays your MP3s. Big, dim numbers are easy to read in the dark and you can personalize lots of settings ||
 || Lock2 || [http://groups.google.com/group/lock2 Download from project page] || A screen locker with lots of fun themes ||
 || Tone Picker || [http://android.hlidskialf.com/software/tonepicker Download from developer] || Create ringtones and get full control over volume settings ||
-
+|| gTasks || [http://andappstore.com/AndroidApplications/apps/224161!show Download from AndAppStore] || An offline Tasks application that syncs with Google Tasks ||
 
 ----
 If you have any applications to add,  or comments/updates on the ones here, then [http://groups.google.com/group/android-on-freerunner send them to us here.]
