@@ -13,6 +13,7 @@ Not being an official Android port, you cannot access the Android Market from yo
 <wiki:comment>
 || AppsLib || [http://appslib.com/] || [http://appslib.com/download/appslib.apk AppsLib client] ||
 </wiki:comment>
+|| openintents || [http://code.google.com/p/openintents/ Google Code page] || Not really a store, but a source for some useful applications ||
 || Slide^ME^ || [http://slideme.org/] || [http://slideme.org/sam2.apk SAM Client] ||
 
 == On a FreeRunner near you! ==
