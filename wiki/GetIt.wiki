@@ -119,7 +119,7 @@ To restore your contacts and SMS data, push your backup to your Android phone us
 {{{
 $ cd backup
 $ adb push backup/data/contacts.db /data/data/com.android.providers.contacts/databases/contacts.db
-$ adb push backup/data/mmssms.db /data/data/com.android.providers.contacts/databases/mmssms.db
+$ adb push backup/data/mmssms.db /data/data/com.android.providers.telephony/databases/mmssms.db
 $ adb shell sync
 $ adb shell reboot
 }}}
