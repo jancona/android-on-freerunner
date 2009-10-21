@@ -34,4 +34,4 @@ TO DO:
 
 
 ----
-_Comments and questions to: [http://code.google.com/u/olejar.damir/ Olejar Damir]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
