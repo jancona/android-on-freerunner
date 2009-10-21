@@ -10,5 +10,6 @@ Under Construction (08 Oct 09)
 == Debugging ==
 == Pushing & Committing changes ==
 
+
 ----
-_Comments to: [http://code.google.com/u/hmutch/ Aitch]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
