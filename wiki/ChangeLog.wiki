@@ -14,4 +14,4 @@ First release, a combination of the [http://www.koolu.com/ koolu] branch and cod
 
 
 ----
-_Comments to: [http://code.google.com/u/larlin289/ larlin]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
