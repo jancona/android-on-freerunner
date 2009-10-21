@@ -80,5 +80,6 @@ Moves a file on the phone to the host
 
 *NB:* Leaving out the final path will write to the current directory
 
+
 ----
-_Comments to: [http://code.google.com/u/strahl/ strahl]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
