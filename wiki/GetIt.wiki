@@ -124,5 +124,6 @@ $ adb shell sync
 $ adb shell reboot
 }}}
 
+
 ----
-_Comments to: [http://code.google.com/u/hmutch/ Aitch]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
