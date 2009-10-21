@@ -6,5 +6,6 @@ Mailing list: android-on-freerunner@googlegroups.com
 
 IRC: #android-on-freerunner@freenode.net
 
+
 ----
-_Comments to: [http://code.google.com/u/larli289 larlin]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
