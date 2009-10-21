@@ -25,4 +25,4 @@ For those who want to chat to fellow developers, you can join the dedicated IRC 
 
 
 ----
-_Comments to: [http://code.google.com/u/niels.heyvaert/ Niels]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
