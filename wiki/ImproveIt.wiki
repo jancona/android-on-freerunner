@@ -46,4 +46,4 @@ The projects are grouped in three main categories *with android-on-freerunner sp
 == Pushing & Committing changes ==
 
 ----
-_Comments to: [http://code.google.com/u/hmutch/ Aitch]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
