@@ -75,5 +75,6 @@ We are currently using the control list maintained by cyanogenmod - see the link
 == Supported Features ==
  Android on Freerunner is under heavy development. You can find an updated list of [FeatureStatus Supported Features here].
 
+
 ----
-_Comments to: [http://code.google.com/u/larlin289/ larlin]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
