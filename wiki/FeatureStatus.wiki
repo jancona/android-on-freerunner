@@ -23,5 +23,6 @@ This is the list of features and their status on Android. Please report any func
 || Other || Accelerometers || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
 || Others to add ? || ? || ? || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
 
+
 ----
-_Comments to: [http://code.google.com/u/niels.heyvaert/ Niels]_
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
