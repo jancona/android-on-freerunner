@@ -73,6 +73,8 @@ Initialise your repository, linking it to the cupcake branch where current devel
    $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
    }}}
 
+Now each time you issue a Git or Repo command in this directory it will automatically be referring  to the Cupcake branch.
+
 Synchronise the repository. _This step will take a long time for the first sync._
    {{{
    $ repo sync
