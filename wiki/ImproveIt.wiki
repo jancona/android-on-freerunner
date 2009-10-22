@@ -39,7 +39,9 @@ Here is a quote from the android source website:
 This is the [http://source.android.com/download/using-repo Android source page on using Repo and Git]
 
  || Do we need to use Repo in this project?  Feedback please? ||
-== Installing Git & Repo ==
+
+== A working repository ==
+=== Installing Git & Repo ===
 
 Installing Git:
 The latest version of Git should be available for installation using your distribution's package manager.
@@ -50,18 +52,7 @@ Installing Repo:
  $ chmod a+x ~/bin/repo
  }}}
 
-== Project layout & branches ==
-
-*Current development is focused on the Cupcake branch*
-
-The project layout is based on Android main project [http://source.android.com/projects Link to Android Project page]
-
-The projects are grouped in three main categories *with the addition of android-on-freerunner specific projects*:
- * Core projects:  These projects make up the foundation of the Android platform.
- * External projects:  The Android Open Source Project makes use of many other open source projects.
- * Packages:  These projects are standard Android applications and services. 
-
-== Making your own repository ==
+=== Making your own repository ===
 
 Create an empty directory to hold your working files.
    {{{
@@ -80,19 +71,33 @@ Synchronise the repository. _This step will take a long time for the first sync.
    $ repo sync
    }}}
 
-== Modifying ==
+== Working with the source ==
+=== Project layout & branches ===
+
+*Current development is focused on the Cupcake branch*
+
+The project layout is based on Android main project [http://source.android.com/projects Link to Android Project page]
+
+The projects are grouped in three main categories *with the addition of android-on-freerunner specific projects*:
+ * Core projects:  These projects make up the foundation of the Android platform.
+ * External projects:  The Android Open Source Project makes use of many other open source projects.
+ * Packages:  These projects are standard Android applications and services. 
+
+=== Modifying ===
 
 Now you have your local repository where you can work on the code offline.  You can freely modify and develop your own code.  
 
 || _Add details on using Git commands_ ||
 
-== Team Collaboration ==
+=== Team Collaboration ===
 
 You are also able to sync your repository with other developers work and collaborate on fixes/features.
 
 || _Add details on using Git commands_ ||
 
-== Pushing & Committing changes ==
+=== Pushing & Committing changes ===
+
+|| _Add details on using Git commands_ ||
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
