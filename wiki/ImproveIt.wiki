@@ -45,10 +45,12 @@ Installing Git:
 The latest version of Git should be available for installation using your distribution's package manager.
 
 Installing Repo:
+ Make sure you have a /bin directory in your home directory and that it's in your $PATH. Then run:
  {{{
  $ curl http://android.git.kernel.org/repo >~/bin/repo
  $ chmod a+x ~/bin/repo
  }}}
+
 
 === Making your own repository ===
 
@@ -62,17 +64,13 @@ Initialise your repository, linking it to the cupcake branch where current devel
    $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
    }}}
 
+You will be asked for your name & email during the initialisation.  These are used for stamping your commits later. 
+
 Now each time you issue a Git or Repo command in this directory it will automatically be referring  to the Cupcake branch.
 
-Synchronise the repository. _This step will take a long time for the first sync._
+Synchronise the repository. _This step will take a very long time for the first sync._
    {{{
    $ repo sync
-   }}}
-
-You will probably want to set up your name and email address to be used in commit logs.
-   {{{
-   $ git config user.name "Your Name"
-   $ git config user.email "my@email.com"
    }}}
 
 == Working with the source ==
