@@ -1,4 +1,4 @@
-#summary Ways go get help with problems
+#summary Where to get help with problems
 
 === Questions? Need help? ===
 
@@ -14,6 +14,7 @@ IRC: #android-on-freerunner@freenode.net
 
 If you think you have found a bug, or have a world beating idea for improving android-on-freerunner; 
  - first check it hasn't already been raised on the [http://code.google.com/p/android-on-freerunner/issues/list Issues list]
+
  - If not then raise a new issue given as much detail as possible
 
 *NOTE:* Always refer to the build you found the issue on (Daily: 20091022, Weekly: 2009-43, 0.1.1, etc.)
