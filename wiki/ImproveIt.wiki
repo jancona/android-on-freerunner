@@ -31,14 +31,12 @@ Here are some links to more detailed information on Git:
  [http://asimilatorul.com/index.php/2009/08/28/git-resources/ The Asimilatorul blog site] with lots of links to Git stuff
 
 === Introduction to Repo ===
-*Repo* is a tool that has been built on top of Git.  Specifically  it is designed to make working with Android development easier. 
+*Repo* is a tool that has been built on top of Git.  Specifically  it is designed to make working with Android development easier. The repo tool uses an XML-based manifest file describing where the upstream repositories are, and how to merge them into a single working checkout. repo will recurse across all the git subtrees and handle uploads, pulls, and other needed items.
 
 Here is a quote from the android source website:
  "In most situations, you can use Git instead of Repo, or mix Repo and Git commands to form complex commands. Using Repo for basic across-network operations will make your work much simpler, however."
 
 This is the [http://source.android.com/download/using-repo Android source page on using Repo and Git]
-
- || Do we need to use Repo in this project?  Feedback please? ||
 
 == A working repository ==
 === Installing Git & Repo ===
@@ -71,10 +69,18 @@ Synchronise the repository. _This step will take a long time for the first sync.
    $ repo sync
    }}}
 
+You will probably want to set up your name and email address to be used in commit logs.
+   {{{
+   $ git config user.name "Your Name"
+   $ git config user.email "my@email.com"
+   }}}
+
 == Working with the source ==
 === Project layout & branches ===
 
 *Current development is focused on the Cupcake branch*
+
+The Android source files are divided among a number of different repositories. A *manifest file* contains a mapping of where the files from these repositories will be placed within your working directory when you synchronise your files.
 
 The project layout is based on Android main project [http://source.android.com/projects Link to Android Project page]
 
