@@ -1,13 +1,48 @@
 #summary android-on-freerunner - Downloading, modifying & contributing patches
 
-*Under Construction (10 Oct 09) - very rough draft*
+*Under Construction (22 Oct 09) - working document*
 
 == The basics ==
- === Why use Version Control? ===
- === Centralised v Distributed ===
- === Introduction to Git ===
- === Introduction to Repo ===
+=== Why use Version Control? ===
+Even if you have only worked alone on your own scripts or website, you will know how important it is to save regularly. Version control allows you back out when things go wrong, try different options and abandon those that don't work out, not to mention just being able to go back and see what you changed.
+
+All this becomes even more important when several developers cooperate on the same complex project.
+
+=== Centralised v Distributed ===
+Older version control systems, like Subversion, use a centralised repository holding a master revision.  If you want to work on any version you need to download this from here, make your changes and push them back.  This is a classic server/client model. This means a lot of communication and someone needing to resolve the inevitable merge conflicts when there are a number of developers working on the same files.
+
+The new generation of version control systems, of which Git is one, are known as distributed systems.  This means that When you clone the master you get a full copy of the complete history.  This requires a big investment on the repository initialisation, but after that you are working locally on your own repository speeding up most operations.
+
+In effect this means that each cloned repository is equal and independant.  This is more a peer-to-peer model.  However, in practical terms a centralised "release version" of the project is maintained.  This also gives a reference for syncing the other repositories to.
+
+=== Introduction to Git ===
+*Git* is a fast, distributed version control system, originally written for use with large repositories such as the Linux Kernel source.  As you can imagine, being designed for such large, complex applications Git is extremely powerful and complex.  However it is quite feasible to use only Git for the daily activities needed to download, build, modify, commit changes and sync the android-on-freerunner project source code.
+
+Here are some links to more detailed information on Git:
+
+ [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html The Git User's Manual] at kernel.org
+
+ [http://www.kernel.org/pub/software/scm/git/docs/v1.2.6/core-tutorial.htm A short git tutorial] introduction, also from kernel.org
+
+ [http://git-scm.com/documentation The Git website's] own documentation page
+
+ [http://www-cs-students.stanford.edu/~blynn/gitmagic/ "Git Magic"] a full featured web based guide
+
+ [http://asimilatorul.com/index.php/2009/08/28/git-resources/ The Asimilatorul blog site] with lots of links to Git stuff
+
+=== Introduction to Repo ===
+*Repo* is a tool that has been built on top of Git.  Specifically  it is designed to make working with Android development easier. 
+
+Here is a quote from the android source website:
+ "In most situations, you can use Git instead of Repo, or mix Repo and Git commands to form complex commands. Using Repo for basic across-network operations will make your work much simpler, however."
+
+This is the [http://source.android.com/download/using-repo Android source page on using Repo and Git]
+
+ || Do we need to use Repo in this project?  Feedback please? ||
 == Installing Git & Repo ==
+
+Installing Git:
+The latest version of Git should be available for installation using your distribution's package manager.
 
 Installing Repo:
  {{{
@@ -17,32 +52,44 @@ Installing Repo:
 
 == Project layout & branches ==
 
-Based on Android main project [http://source.android.com/projects Link to Android Project page]
+*Current development is focused on the Cupcake branch*
 
-The projects are grouped in three main categories *with android-on-freerunner specific projects*:
+The project layout is based on Android main project [http://source.android.com/projects Link to Android Project page]
+
+The projects are grouped in three main categories *with the addition of android-on-freerunner specific projects*:
  * Core projects:  These projects make up the foundation of the Android platform.
  * External projects:  The Android Open Source Project makes use of many other open source projects.
  * Packages:  These projects are standard Android applications and services. 
 
 == Making your own repository ==
 
- Create an empty directory to hold your working files.
+Create an empty directory to hold your working files.
    {{{
    $ mkdir aof_source
    $ cd aof_source
    }}}
- Initialise repository, linking it to the cupcake branch where current development is focused. 
+Initialise your repository, linking it to the cupcake branch where current development is focused. 
    {{{
    $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
    }}}
 
- Synchronise the repository. _This step may take awhile._
+Synchronise the repository. _This step will take a long time for the first sync._
    {{{
    $ repo sync
    }}}
 
 == Modifying ==
+
+Now you have your local repository where you can work on the code offline.  You can freely modify and develop your own code.  
+
+|| _Add details on using Git commands_ ||
+
 == Team Collaboration ==
+
+You are also able to sync your repository with other developers work and collaborate on fixes/features.
+
+|| _Add details on using Git commands_ ||
+
 == Pushing & Committing changes ==
 
 ----
