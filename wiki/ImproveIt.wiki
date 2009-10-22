@@ -22,7 +22,7 @@ Here are some links to more detailed information on Git:
 
  [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html The Git User's Manual] at kernel.org
 
- [http://www.kernel.org/pub/software/scm/git/docs/v1.2.6/core-tutorial.htm A short git tutorial] introduction, also from kernel.org
+ [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html A short git tutorial] introduction, also from kernel.org
 
  [http://git-scm.com/documentation The Git website's] own documentation page
 
