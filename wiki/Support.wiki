@@ -1,11 +1,22 @@
 #summary Ways go get help with problems
 
-If you need help with anything related to android-on-freerunner feel free to ask in our mailing list or irc channel.
+=== Questions? Need help? ===
 
-Mailing list: android-on-freerunner@googlegroups.com
+If you need help with anything related to android-on-freerunner your best option is to ask in our mailing list or irc channel.
+
+Mailing list: [mailto:android-on-freerunner@googlegroups.com android-on-freerunner@googlegroups.com]
 
 IRC: #android-on-freerunner@freenode.net
 
+*NOTE:* It's more than likely your question has already been raised, so first check out the [http://groups.google.com/group/android-on-freerunner/topics mailing list archive].  Or you can check out the [FrequentlyAskedQuestions FAQ page on the wiki].
+
+=== Bugs & Enhancements ===
+
+If you think you have found a bug, or have a world beating idea for improving android-on-freerunner; 
+ - first check it hasn't already been raised on the [http://code.google.com/p/android-on-freerunner/issues/list Issues list]
+ - If not then raise a new issue given as much detail as possible
+
+*NOTE:* Always refer to the build you found the issue on (Daily: 20091022, Weekly: 2009-43, 0.1.1, etc.)
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
