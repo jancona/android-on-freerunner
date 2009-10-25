@@ -100,7 +100,7 @@ This gives a pointer to your work within your local repository.  You can see all
   {{{
   $ git branch  
   }}}
-If working on several branches the current one will be marked with a "*", you can move to another with
+If working on several branches the current one will be marked with a "`*`", you can move to another with
   {{{
   $ git checkout <branchname>
   }}}
