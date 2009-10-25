@@ -89,19 +89,55 @@ The projects are grouped in three main categories *with the addition of android-
 
 === Modifying ===
 
-Now you have your local repository where you can work on the code offline.  You can freely modify and develop your own code.  
+Now you have your local repository where you can work on the code offline.  You can freely modify the source or develop and add your own code.
 
-|| _Add details on using Git commands_ ||
+Begin by picking an issue to work on and find the relevant project/sub-directory and mark your topic branch 
+  {{{
+  $ repo start <branchname> <project>
+  }}}
 
-=== Team Collaboration ===
+This gives a pointer to your work within your local repository.  You can see all your topics branches using
+  {{{
+  $ git branch  
+  }}}
+If working on several branches the current one will be marked with a "*", you can move to another with
+  {{{
+  $ git checkout <branchname>
+  }}}
 
-You are also able to sync your repository with other developers work and collaborate on fixes/features.
+Edit files within the </workingdirectory/project> using your favourite editor and cahnges will be recognised and tracked by Git.  Adding, deleting and renaming files should be done using
+  {{{
+  $ git add <file>
+  $ git rm <file>
+  $ git mv <file>
+  }}}
 
-|| _Add details on using Git commands_ ||
+You can check what files have been altered using
+  {{{
+  $ git status
+  }}}
 
 === Pushing & Committing changes ===
 
-|| _Add details on using Git commands_ ||
+When you are happy with your changes, you should commit them to your local repository. Run
+  {{{
+  $ git commit -a
+  }}}
+You can also add "-m <description of your change>" to this command, if you don't then your default editor will open and you will be able to add a description to the commit record.  
+
+*Commit rights*
+Only approved developers are allowed to push & commit to the release version of the project.  Until you reach that elevated status you need to create patches and attach them to the issue you have been working on.  The devs will review the patch and commit on your behalf.
+
+To create the patch file 
+  {{{
+  $ git format-patch -o <path/to/where/you/want/file/to/be/saved>
+  }}}
+
+The above is only a small part of what you can do with Git. Check out the links above for more details, or see this [http://git-scm.com/course/svn.html crash course from the Git site] for a good overview of the most useful commands.
+ 
+=== Team Collaboration ===
+
+You can also sync your repository with other developers work and exchange pathes to collaborate on fixes/features.  Then, when you are finished, send the patch for inclusion in the release version of the project.
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
