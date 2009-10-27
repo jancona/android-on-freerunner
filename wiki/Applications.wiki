@@ -22,6 +22,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 
 || *Application* || *Link* || *Details* ||
 || AndNav2 || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
+|| android-sky || [http://code.google.com/p/android-sky/ Download from the project homepage] || A weather widget. You need to download version 102 and use the gps method for location ||
 || apndroid || [http://code.google.com/p/apndroid/ Download from the project homepage] || Enables/disables APNs to connect to internet ||
 || Bookworm || [http://www.phoload.com/software/669-bookworm/view Download from phoload] || A general purpose dictionary program. You can <br /> [http://sites.google.com/site/pskink/home/bookworm-dictionary/WordNet.db?attredirects=0 download the Wordnet dictionary database] ||
 || FBReaderJ || [http://www.fbreader.org/FBReaderJ/ Download from developer] || An e-book reader for Android. You need to delete one file after nstallation to be able to open .fb2.zip files, otherwise it crashes <br /> (# rm /data/data/org.geometerplus.zlibrary.ui.android/lib/libDeflatingDecompressor.so) ||
