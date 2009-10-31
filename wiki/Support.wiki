@@ -8,7 +8,14 @@ Mailing list: [mailto:android-on-freerunner@googlegroups.com android-on-freerunn
 
 IRC: #android-on-freerunner@freenode.net
 
-*NOTE:* It's more than likely your question has already been raised, so first check out the [http://groups.google.com/group/android-on-freerunner/topics mailing list archive].  Or you can check out the [FrequentlyAskedQuestions FAQ page on the wiki].
+*NOTE:* It's more than likely your question has already been raised, so first check out the [http://groups.google.com/group/android-on-freerunner/topics mailing list archive].  Or you can check out the [FrequentlyAskedQuestions FAQ page on the wiki]. 
+
+There is also an archive of the IRC chat channel, so you can check what has been discussed:
+ Today's archive is here [http://logs.nslu2-linux.org/livelogs/and2moko.txt]
+
+ Yesterday's here [http://logs.nslu2-linux.org/livelogs/and2moko-prev.txt]
+
+ And the complete archive here [http://logs.nslu2-linux.org/livelogs/and2moko/]
 
 === Bugs & Enhancements ===
 
