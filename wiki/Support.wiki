@@ -17,6 +17,8 @@ There is also an archive of the IRC chat channel, so you can check what has been
 
  And the complete archive here [http://logs.nslu2-linux.org/livelogs/and2moko/]
 
+ This service is provided by Rod Whitby and you can support his efforts by providing a donation here [http://www.nslu2-linux.org/wiki/Main/Donate]
+
 === Bugs & Enhancements ===
 
 If you think you have found a bug, or have a world beating idea for improving android-on-freerunner; 
