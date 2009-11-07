@@ -1,6 +1,6 @@
 #summary android-on-freerunner, Downloading & installing.
 
-*Updated (10 Oct 09) - added reference to weekly builds*
+*Updated (07 Nov 09) - added reference to daily builds*
 
 == Before you start ==
 
