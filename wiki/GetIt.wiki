@@ -124,6 +124,11 @@ $ adb shell sync
 $ adb shell reboot
 }}}
 
+=Dailys=
+
+There are dailys build by serdar, these are build from the repo every night European time. These are for testing purposes and should be avoided if you aren't interested in testing some specific path.
+ http://serdar-dere.net/~serdar/daily/ 
+
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
