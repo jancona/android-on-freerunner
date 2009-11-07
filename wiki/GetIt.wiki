@@ -124,9 +124,9 @@ $ adb shell sync
 $ adb shell reboot
 }}}
 
-=Dailys=
+=Daily Builds=
 
-There are dailys build by serdar, these are build from the repo every night European time. These are for testing purposes and should be avoided if you aren't interested in testing some specific path.
+There are daily builds made by serdar, these are build from the repo every night European time, or more often if there is some patch to be tested. These are for testing purposes and should be avoided if you aren't interested in testing some specific path.
  http://serdar-dere.net/~serdar/daily/ 
 
 
