@@ -11,11 +11,11 @@ IRC: #android-on-freerunner@freenode.net
 *NOTE:* It's more than likely your question has already been raised, so first check out the [http://groups.google.com/group/android-on-freerunner/topics mailing list archive].  Or you can check out the [FrequentlyAskedQuestions FAQ page on the wiki]. 
 
 There is also an archive of the IRC chat channel, so you can check what has been discussed:
- Today's archive is here [http://logs.nslu2-linux.org/livelogs/and2moko.txt]
+ Today's archive is here [http://logs.nslu2-linux.org/livelogs/android-on-freerunner.txt]
 
- Yesterday's here [http://logs.nslu2-linux.org/livelogs/and2moko-prev.txt]
+ Yesterday's here [http://logs.nslu2-linux.org/livelogs/android-on-freerunner-prev.txt]
 
- And the complete archive here [http://logs.nslu2-linux.org/livelogs/and2moko/]
+ And the complete archive here [http://logs.nslu2-linux.org/livelogs/android-on-freerunner/]
 
  This service is provided by Rod Whitby and you can support his efforts by providing a donation here [http://www.nslu2-linux.org/wiki/Main/Donate]
 
