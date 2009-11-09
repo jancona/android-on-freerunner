@@ -26,7 +26,7 @@ Some of the things you should do here are:
  * Under `Sound & display` scroll all the way down to `Screen timeout` and set the screen timeout to something more than the default 1 minute (at least while you are ~~playing about~~ getting to know Android on your phone).
  * While your there you might want to adjust the brightness to make reading all these menu options easier.
  * Now backup the menu (using the Aux button) and choose `Applications` then `Development`.  Under here you want to switch on `Stay awake` so that your screen stays visible while connected to your main system.
- * Also under `Development` you might want to activate the `Unknown sources` option as you will only be able to install non_Market applications!
+ * Also under `Applications` you might want to activate the `Unknown sources` option as you will only be able to install non_Market applications on your Freerunner!
 
 Now that your phone isn't going to keep blanking out on you it's time to customize it to your liking. You will want to:
  * Choose your phones language under `Locale & text`
