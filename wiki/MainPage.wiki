@@ -23,7 +23,7 @@ Needless to say the project is also looking for people willing to get their hand
 
 For those who want to chat with fellow developers, you can join the dedicated IRC chat channel on irc://irc.freenode.net/android-on-freerunner
 
-Rod Whitby has graciously agreed to archive our IRC channel. Today's archive is [http://logs.nslu2-linux.org/livelogs/and2moko.txt here], yesterday's [http://logs.nslu2-linux.org/livelogs/and2moko-prev.txt here] and the complete archive [http://logs.nslu2-linux.org/livelogs/and2moko/ here].
+Rod Whitby has graciously agreed to archive our IRC channel. Today's archive is [http://logs.nslu2-linux.org/livelogs/android-on-freerunner.txt here], yesterday's [http://logs.nslu2-linux.org/livelogs/android-on-freerunner-prev.txt here] and the complete archive [http://logs.nslu2-linux.org/livelogs/android-on-freerunner/ here].
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
