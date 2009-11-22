@@ -86,7 +86,7 @@ $
 $ vi ~/.android/avd/FreeRunner.avd/config.ini
 }}}
 
-3) Unpack the freerunner theme [http://android-on-freerunner.googlecode.com/files/freerunner_emulator_theme.tar.bz2 (you can download it here)] into the skins following directory:
+3) Unpack the freerunner theme [http://android-on-freerunner.googlecode.com/files/freerunner_emulator_theme2.zip (you can download it here)] into the skins following directory:
 
 android-sdk-linux_x86-1.5_r2/platforms/android-1.5/skins
 
