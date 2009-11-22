@@ -2,7 +2,7 @@
 
 *Under Construction (22 Nov 09) - working document*
 
-== What is the emulator? ==
+=== What is the emulator? ===
 
 You don't need to do application development and testing directly on your Freerunner.  To make development easier Android provides a full Software Development Kit (SDK) which allows you to emulate different platforms on your desktop system.
 
