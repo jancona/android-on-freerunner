@@ -10,6 +10,7 @@
     * [FrequentlyAskedQuestions FAQ]
     * [AndroidDebugBridge ADB shell]
     * [FeatureStatus Features]
+  * [EmulateIt Emulate it]
   * [ImproveIt Improve it]
     * [ImproveIt#The_basics The basics]
     * [ImproveIt#A_working_repository A working repository]
