@@ -21,10 +21,12 @@ Not being an official Android port, you cannot access the Android Market from yo
 Here are some of the applications android-on-freerunner users have recommended:
 
 || *Application* || *Link* || *Details* ||
+|| abook2podcast || [http://skliarie.blogspot.com/2009/12/audiobook-as-podcast.html Download from developer] || Convert an Audiobook into a Podcast ||
 || AndNav2 || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
 || android-sky || [http://code.google.com/p/android-sky/ Download from the project homepage] || A weather widget. You need to download version 102 and use the gps method for location ||
 || apndroid || [http://code.google.com/p/apndroid/ Download from the project homepage] || Enables/disables APNs to connect to internet ||
 || Bookworm || [http://www.phoload.com/software/669-bookworm/view Download from phoload] || A general purpose dictionary program. You can <br /> [http://sites.google.com/site/pskink/home/bookworm-dictionary/WordNet.db?attredirects=0 download the Wordnet dictionary database] ||
+|| CarCast || [http://andappstore.com/AndroidApplications/apps/Car_Cast Download from AndAppStore] || Podcast player allows to stop and resume in the middle of an mp3 file, ideal for audiobooks. It also pauses the playback on incoming phone calls. ||
 || FBReaderJ || [http://www.fbreader.org/FBReaderJ/ Download from developer] || An e-book reader for Android. You need to delete one file after nstallation to be able to open .fb2.zip files, otherwise it crashes <br /> (# rm /data/data/org.geometerplus.zlibrary.ui.android/lib/libDeflatingDecompressor.so) ||
 || GPS Status || [http://andappstore.com/AndroidApplications/apps/GPS_status Download from AndAppStore] || The name says it all ||
 <wiki:comment>Removed as it needs proprietary API
@@ -40,6 +42,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use Internet sites and services anonymously from a mobile device ||
 || SIM Checker || [http://andappstore.com/AndroidApplications/apps/SIM_Checker Download from AndAppStore] || sends an SMS to a pre-defined number with GPS coordinates if a different SIM is put into the phone ||
 || SMS Unread Count || [http://android.kanokgems.com/sms-unread-count Download from developer] || Overlays the number of unread SMS's on the Messages icon ||
+|| Space STG || [http://andappstore.com/AndroidApplications/apps/345486!show Download from AndAppStore] || Space Strategy Game ||
 || Swift || [http://andappstore.com/AndroidApplications/apps/Swift_Twitter_Client Download from AndAppStore] || A very good Twitter client for Android ||
 || SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings plus explanations of what they are for. ||
 || VcardIO || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
