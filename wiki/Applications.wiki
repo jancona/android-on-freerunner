@@ -30,8 +30,8 @@ Here are some of the applications android-on-freerunner users have recommended:
 <wiki:comment>Removed as it needs proprietary API
 || gTasks || [http://andappstore.com/AndroidApplications/apps/224161!show Download from AndAppStore] || An offline Tasks application that syncs with Google Tasks ||
 </wiki:comment>
-|| Jiminy || [http://code.google.com/p/jiminy/ Download from project homepage] || identi.ca microblogging app ||
 || Jabiru || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) <br /> *This app has been reported as crashing - Feedback please* ||
+|| Jiminy || [http://code.google.com/p/jiminy/ Download from project homepage] || identi.ca microblogging app ||
 || Lock2 || [http://groups.google.com/group/lock2 Download from project page] || A screen locker with lots of fun themes ||
 || Navit || [http://download.navit-project.org/navit/android_armv4t/svn/ Download the daily build] || Modular, touch screen friendly car navigation system with GPS tracking, realtime routing engine and support for various vector map formats ||
 || Nightclock || [http://doug.ricket.com/android/ Download from developer] || Turns your phone into a bedside alarm clock that plays your MP3s. Big, dim numbers are easy to read in the dark and you can personalize lots of settings ||
