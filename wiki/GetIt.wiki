@@ -104,7 +104,7 @@ When you have reassembled your Freerunner, hold the 'Aux button' (top left) in w
  * A scary white screen for what seems forever but is only a few seconds
  * Lots of scrolling text
  * That white screen again (don't panic)
- * An andorid-on-freerunner splash screen! (exactly what depends on how creative Damir's been lately).  This will be there for quite a while on the first boot.
+ * An andorid-on-freerunner splash screen! (exactly what depends on how creative Damir's been lately).  This will be there for quite a while on the first boot. *NB:* "quite a while" = several minutes, if it's still there after 10 minutes something has gone wrong.  Go back to the start and double check all the preparation steps!
  * Very fancy Android letters with rippling light effect. 
  * *Android start screen - locked!*
 
