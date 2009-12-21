@@ -29,6 +29,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || CarCast || [http://andappstore.com/AndroidApplications/apps/Car_Cast Download from AndAppStore] || Podcast player allows to stop and resume in the middle of an mp3 file, ideal for audiobooks. It also pauses the playback on incoming phone calls. ||
 || Colordict || [http://andappstore.com/AndroidApplications/apps/ColorDict_Universal_Dictionary Download from AndAppStore] || Universal Dictionary able to read StarDict Data and supporting the XDXF format ||
 || FBReaderJ || [http://www.fbreader.org/FBReaderJ/ Download from developer] || An e-book reader for Android. You need to delete one file after nstallation to be able to open .fb2.zip files, otherwise it crashes <br /> (# rm /data/data/org.geometerplus.zlibrary.ui.android/lib/libDeflatingDecompressor.so) ||
+|| GDocs || [http://sites.google.com/site/gdocsforandroid/ Download from developer] ||  Create, edit, view, import, export, send and sync documents with your Google Docs account. ||
 || GPS Status || [http://andappstore.com/AndroidApplications/apps/GPS_status Download from AndAppStore] || The name says it all ||
 <wiki:comment>Removed as it needs proprietary API
 || gTasks || [http://andappstore.com/AndroidApplications/apps/224161!show Download from AndAppStore] || An offline Tasks application that syncs with Google Tasks ||
