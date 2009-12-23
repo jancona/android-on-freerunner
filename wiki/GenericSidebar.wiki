@@ -9,6 +9,7 @@
     * [Support Support]
     * [FrequentlyAskedQuestions FAQ]
     * [AndroidDebugBridge ADB shell]
+    * [UseIt#Busybox_SSH Busybox SSH]
     * [FeatureStatus Features]
   * [EmulateIt Emulate it]
   * [ImproveIt Improve it]
