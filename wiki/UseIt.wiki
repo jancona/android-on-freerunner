@@ -59,11 +59,50 @@ If your Carrier is not automatically found then you will have to contact them fo
 
 We are currently using the control list maintained by cyanogenmod - see the link to the APN control list under [FeatureStatus the Supported Feature page].
 
+== Using Dropbear SSH ==
+
+To start using the Dropbear SSH server built in AoF Cupcake and Eclair, follow these steps:
+
+Create the required subdirectory and copy your rsa_host_key using ADB:
+
+{{{
+ADBHOST=192.168.0.202 ./adb shell mkdir /data/dropbear
+ADBHOST=192.168.0.202 ./adb push dropbear_rsa_host_key /data/dropbear
+}}}
+
+Enable wireless and check the IP address:
+{{{
+ifconfig eth0
+}}}
+This should provide you the IP address.
+
+Now run the Dropbear server:
+{{{
+dropbear -v -p 22
+}}}
+
+and connect from your desktop to your phone (the root password is empty by default):
+{{{
+ssh root@<your phone's IP address>
+}}}
+
+Next, set your environment parameters:
+{{{
+export PATH=$PATH:/system/bin:/system/xbin
+}}}
+
+And of you go.
+
+You no longer need the USB connection, so you could drop it using:
+{{{
+ifconfig usb0 down
+}}}
+
 == Setting up Busybox SSH ==
 
 *Download*
 
-Download the Busybox for Android [http://diy.zjip.com/busybox here] or [http://verdebreuk.googlecode.com/files/busybox here]. Copy your the files to your bin directory using ADB.
+Download the Busybox for Android [http://diy.zjip.com/busybox here] or [http://verdebreuk.googlecode.com/files/busybox here]. Copy the files to your bin directory using ADB.
 
 *Configure*
 
