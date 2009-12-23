@@ -9,6 +9,7 @@
     * [Support Support]
     * [FrequentlyAskedQuestions FAQ]
     * [AndroidDebugBridge ADB shell]
+    * [UseIt#Using_Dropbear Use Dropbear SSH]
     * [UseIt#Setting_up_Busybox_SSH Busybox SSH]
     * [FeatureStatus Features]
   * [EmulateIt Emulate it]
