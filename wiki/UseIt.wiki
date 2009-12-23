@@ -59,6 +59,36 @@ If your Carrier is not automatically found then you will have to contact them fo
 
 We are currently using the control list maintained by cyanogenmod - see the link to the APN control list under [FeatureStatus the Supported Feature page].
 
+== Setting up Busybox SSH ==
+
+*Download*
+
+Download the Busybox for Android [http://diy.zjip.com/busybox here] or [http://verdebreuk.googlecode.com/files/busybox here]. Copy your the files to your bin directory using ADB.
+
+*Configure*
+
+Go to the correct directory and create your symlinks.
+On Cupcake:
+{{{
+cd ../android/_200912180730_VERSION/out/target/product/freerunner/system/bin
+}}}
+On Eclair:
+{{{
+cd ../android/_200912181145_VERSION/out/target/product/fr/system/bin
+}}}
+And execute following commands:
+{{{
+ln -s ./busybox ./find
+ln -s ./busybox ./grep
+ln -s ./busybox ./gzip
+ln -s ./busybox ./gunzip
+ln -s ./busybox ./vi
+ln -s ./busybox ./watch
+ln -s ./busybox ./wget
+cd ..
+ln -s ./bin/busybox ./sh
+}}}
+
 == Daily use ==
 
  [Applications On the applications page] you can see what other users have recommended and get some links to where you can find more. Pass on your favourites. 
