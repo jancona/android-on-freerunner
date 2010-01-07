@@ -33,6 +33,22 @@ Now that your phone isn't going to keep blanking out on you it's time to customi
  * Set your timezone and time/date formats under `Date & time settings`
  * You may have to switch off `Automatic`.  This doesn't work with my provider and I need to set time and date manually.
 
+*Mail Application*
+
+When you register gmail account in the email app you will get an error regarding untrusted certificate, just edit manually and use these settings:
+{{{
+Incoming:
+username@gmail.com
+imap.gmail.com
+SSL (If available)
+
+Outgoing:
+username@gmail.com
+smtp.gmail.com
+SSL (If available)
+}}}
+Now it should work.
+
 == Setting up Wifi and GPRS ==
 
 *Wifi*
