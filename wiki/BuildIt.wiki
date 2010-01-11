@@ -1,8 +1,10 @@
 #summary Build your own system and test out your changes.
 
-= Introduction =
+= Setting up your system =
 
-Under Construction (08 Oct 09)
+How to configure you system can be found on the main Google Android project page [http://source.android.com/download here].
+
+Make sure to use the repo links for this project and not the standard ones mentioned on that page.
 
 == ARM Toolchain ==
 == Compiling ==
