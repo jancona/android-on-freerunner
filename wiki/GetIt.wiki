@@ -1,6 +1,5 @@
 #summary android-on-freerunner, Downloading & installing.
 
-*Updated (07 Nov 09) - added reference to daily builds*
 
 == Before you start ==
 
@@ -12,6 +11,10 @@
   * Not to be afraid of the command line.
 
 If you should need it you can find very comprehensive *additional information*  on most of the points covered below at the [http://wiki.openmoko.org/wiki/Main_Page Openmoko Wiki site]. 
+
+*Update GSM firmware*
+
+Some of the issues with reading SIM card contacts, wakeup interrupts, etc. can be fixed by updating the GSM firmware on your phone to the latest version - currently Moko11. See [http://wiki.openmoko.org/wiki/GSM/Flashing the relevant OpenMoko wiki page] for full instructions on checking your version and how to update.
 
 === Backup your data ===
 
@@ -35,7 +38,9 @@ Experience has shown that sizing these at a ratio of 3 to 1 works best. So if yo
 Experience has also shown that it is best to delete all existing partitions and create new when installing a new build. _(This greatly helps the testing and bug fixing process)._
  
 Comprehensive information on partitioning and formatting your SD card can be found on [http://wiki.openmoko.org/wiki/Android_on_Freerunner#Preparing_the_SD_Card the Openmoko Wiki.]
-  
+
+*Note* Users have reported that it is also possible to install Android by making a single partition formatted as VFAT/MSDOS. 
+
 == Download ==
 
 First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
