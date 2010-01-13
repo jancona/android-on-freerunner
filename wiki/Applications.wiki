@@ -38,7 +38,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 </wiki:comment>
 || Jabiru || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) <br /> *This app has been reported as crashing - Feedback please* ||
 || Jiminy || [http://code.google.com/p/jiminy/ Download from project homepage] || identi.ca microblogging app ||
-|| Lines || [http://andappstore.com/AndroidApplications/apps/367249!show Download from AndAppStore] || A 5-in-a-row game adapted for the FreeRunner's screen size. ||
+|| Lines || [http://andappstore.com/AndroidApplications/apps/367249!show Download from AndAppStore] || A 5-in-a-row game adapted for the FreeRunner's screen size. This is a porting of the Palm game Vexed, [http://vexed.sourceforge.net/page2/instructions.html see this link for instructions.] ||
 || Lock2 || [http://groups.google.com/group/lock2 Download from project page] || A screen locker with lots of fun themes ||
 || MapDroyd || [http://andappstore.com/AndroidApplications/apps/MapDroyd Download from AndAppStore] || MapDroyd uses maps from the OpenStreetMaps project. Easy to use, view maps offline, download maps automatically and rotate maps. Requires [http://andappstore.com/AndroidApplications/apps/ContentDroyd ContentDroyd] to handle downloads. ||
 || Navit || [http://download.navit-project.org/navit/android_armv4t/svn/ Download the daily build] || Modular, touch screen friendly car navigation system with GPS tracking, realtime routing engine and support for various vector map formats ||
