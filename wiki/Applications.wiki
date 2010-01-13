@@ -29,7 +29,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || Bookworm || [http://www.phoload.com/software/669-bookworm/view Download from phoload] || A general purpose dictionary program. You can <br /> [http://sites.google.com/site/pskink/home/bookworm-dictionary/WordNet.db?attredirects=0 download the Wordnet dictionary database] ||
 || CarCast || [http://andappstore.com/AndroidApplications/apps/Car_Cast Download from AndAppStore] || Podcast player allows to stop and resume in the middle of an mp3 file, ideal for audiobooks. It also pauses the playback on incoming phone calls. ||
 || Colordict || [http://andappstore.com/AndroidApplications/apps/ColorDict_Universal_Dictionary Download from AndAppStore] || Universal Dictionary able to read StarDict Data and supporting the XDXF format ||
-|| Dexev || [http://andappstore.com/AndroidApplications/apps/385946!show Download from AndAppStore] || A working demo of Dexev game where you can move blocks by dragging with your finger/thumb. ||
+|| Dexev || [http://andappstore.com/AndroidApplications/apps/385946!show Download from AndAppStore] || A working demo of Dexev game where you can move blocks by dragging with your finger/thumb.  This is a porting of the Palm game Vexed!, [http://vexed.sourceforge.net/page2/instructions.html see this link for instructions.]||
 || FBReaderJ || [http://www.fbreader.org/FBReaderJ/ Download from developer] || An e-book reader for Android. You need to delete one file after nstallation to be able to open .fb2.zip files, otherwise it crashes <br /> (# rm /data/data/org.geometerplus.zlibrary.ui.android/lib/libDeflatingDecompressor.so) ||
 || GDocs || [http://sites.google.com/site/gdocsforandroid/ Download from developer] ||  Create, edit, view, import, export, send and sync documents with your Google Docs account. ||
 || GPS Status || [http://andappstore.com/AndroidApplications/apps/GPS_status Download from AndAppStore] || The name says it all ||
@@ -38,20 +38,21 @@ Here are some of the applications android-on-freerunner users have recommended:
 </wiki:comment>
 || Jabiru || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) <br /> *This app has been reported as crashing - Feedback please* ||
 || Jiminy || [http://code.google.com/p/jiminy/ Download from project homepage] || identi.ca microblogging app ||
-|| Lines || [http://andappstore.com/AndroidApplications/apps/367249!show Download from AndAppStore] || A 5-in-a-row game adapted for the FreeRunner's screen size. This is a porting of the Palm game Vexed!, [http://vexed.sourceforge.net/page2/instructions.html see this link for instructions.] ||
+|| Lines || [http://andappstore.com/AndroidApplications/apps/367249!show Download from AndAppStore] || A 5-in-a-row game adapted for the FreeRunner's screen size ||
 || Lock2 || [http://groups.google.com/group/lock2 Download from project page] || A screen locker with lots of fun themes ||
 || MapDroyd || [http://andappstore.com/AndroidApplications/apps/MapDroyd Download from AndAppStore] || MapDroyd uses maps from the OpenStreetMaps project. Easy to use, view maps offline, download maps automatically and rotate maps. Requires [http://andappstore.com/AndroidApplications/apps/ContentDroyd ContentDroyd] to handle downloads. ||
 || Navit || [http://download.navit-project.org/navit/android_armv4t/svn/ Download the daily build] || Modular, touch screen friendly car navigation system with GPS tracking, realtime routing engine and support for various vector map formats ||
 || Nightclock || [http://doug.ricket.com/android/ Download from developer] || Turns your phone into a bedside alarm clock that plays your MP3s. Big, dim numbers are easy to read in the dark and you can personalize lots of settings ||
 || Puzzles || [http://www.androidfreeware.org/download/puzzles Download from Android Freeware Directory] || A collection of 27 different puzzle games. You can [http://www.chiark.greenend.org.uk/~sgtatham/puzzles/ find explanations of the games here] ||
 || RingDroid || [http://code.google.com/p/ringdroid/ Download from project homepage] || Record and edit sounds, create ringtones directly on the handset and link different ringtones to your contacts ||
-|| Tone Picker || [http://android.hlidskialf.com/software/tonepicker Download from developer] || Create ringtones and get full control over volume settings ||
-|| TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use Internet sites and services anonymously from a mobile device ||
+|| RpnCalc || [http://www.efalk.org/RpnCalc/RpnCalc.apk Download from developer] || This is a powerful scientific calculator with many popular features. It features Reverse Polish Notation.  [http://www.efalk.org/RpnCalc/ Full details can be found here.] ||
 || SIM Checker || [http://andappstore.com/AndroidApplications/apps/SIM_Checker Download from AndAppStore] || sends an SMS to a pre-defined number with GPS coordinates if a different SIM is put into the phone ||
 || SMS Unread Count || [http://android.kanokgems.com/sms-unread-count Download from developer] || Overlays the number of unread SMS's on the Messages icon ||
 || Space STG || [http://andappstore.com/AndroidApplications/apps/345486!show Download from AndAppStore] || Space Strategy Game ||
 || Swift || [http://andappstore.com/AndroidApplications/apps/Swift_Twitter_Client Download from AndAppStore] || A very good Twitter client for Android ||
 || SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings plus explanations of what they are for. ||
+|| Tone Picker || [http://android.hlidskialf.com/software/tonepicker Download from developer] || Create ringtones and get full control over volume settings ||
+|| TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use Internet sites and services anonymously from a mobile device ||
 || VcardIO || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
 || WiFi Buddy || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A wifi scanning tool which shows extra info on APs ||
 
