@@ -4,13 +4,12 @@
 == Before you start ==
 
 *You need:*
-  * A fully charged Openmoko Freerunner GTA02 telephone.
-  * A SD memory card that's supported on the Freerunner. ([http://wiki.openmoko.org/wiki/Supported_microSD_cards You can check here]).
-  * Some way of connecting your Sd card to your computer.
-  * Root access or Superuser rights on your on system.
-  * Not to be afraid of the command line.
+  * A fully charged Openmoko Freerunner GTA02 telephone
+  * An SD memory card supported on the Freerunner (non-exhaustive list available [http://wiki.openmoko.org/wiki/Supported_microSD_cards here])
+  * Some way of connecting your SD card to your computer.
+  * Root priveliges on your Linux system
 
-If you should need it you can find very comprehensive *additional information*  on most of the points covered below at the [http://wiki.openmoko.org/wiki/Main_Page Openmoko Wiki site]. 
+If required, you can find very comprehensive *additional information*  on most of the points covered below at the [http://wiki.openmoko.org/wiki/Main_Page Openmoko Wiki site]. 
 
 *Update GSM firmware*
 
