@@ -1,12 +1,12 @@
 #summary Build your own system and test out your changes.
 
 == ARM Toolchain ==
-The Freerunner uses the 400/500 MHz Samsung 2442B Processor/SOC (400 minimum, ARM920T core, ARMv4T). That means if you you are going to build code designed to run on it you need to set up an environment that enables that on your host machine.
+The Freerunner uses an ARM processor. Chances are your host machine doesn't. That means if you you are going to build code designed to run on it you need to set up an environment that enables that on your host machine.
 
 That's where things get complicated!  There are different ways to achieve a suitable build environment and there are lots of host machine operating systems and processors. 
 
 = Setting up your system =
-The information on how to configure you system found on the main Google Android project page [http://source.android.com/download here] is based on a 32-bit x86 system running Java 5.
+The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/download here.] These set ups are based on running Java 5.
 
 Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt/sources.list:
     {{{
