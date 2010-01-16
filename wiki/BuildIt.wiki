@@ -1,17 +1,47 @@
 #summary Build your own system and test out your changes.
 
-= Setting up your system =
-
-How to configure you system can be found on the main Google Android project page [http://source.android.com/download here].
-
-Make sure to use the repo links for this project and not the standard ones mentioned on that page.
-
 == ARM Toolchain ==
+The Freerunner uses the 400/500 MHz Samsung 2442B Processor/SOC (400 minimum, ARM920T core, ARMv4T). That means if you you are going to build code designed to run on it you need to set up an environment that enables that on your host machine.
+
+That's where things get complicated!  There are different ways to achieve a suitable build environment and there are lots of host machine operating systems and processors. 
+
+= Setting up your system =
+The information on how to configure you system found on the main Google Android project page [http://source.android.com/download here] is based on a 32-bit x86 system running Java 5.
+
+Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt/sources.list:
+    {{{
+    deb http://us.archive.ubuntu.com/ubuntu/ dapper main restricted
+    deb http://us.archive.ubuntu.com/ubuntu/ dapper universe multiverse
+    }}}
+
+Then run:
+    {{{
+    $ sudo apt-get update
+    $ sudo apt-get install sun-java5-jdk
+    }}}
+
+In addition gcc-4.3, g++-4.3, liblzo2-dev and uboot-mkimage are needed:
+    {{{
+    # sudo aptitude install gcc-4.3 g++-4.3 liblzo2-dev uboot-mkimage 
+    }}}
+
 == Compiling ==
-== Testing ==
-== Debugging ==
-== Pushing & Committing changes ==
+Install repo and download the source code following instructions on [http://code.google.com/p/android-on-freerunner/wiki/ImproveIt the wiki ImproveIt page.] Make sure to use the repo links for this project and not the standard ones mentioned on that page.
 
+If sun-java5-jdk was installed using the procedure above then run:
+    {{{
+    $ export CC=gcc-4.3 
+    $ export CXX=g++-4.3 
+    $ make -j 4 TARGET_PRODUCT=fr
+    }}}
 
+Otherwise specify the JAVA folder:
+    {{{
+    $ export JAVA_HOME=<path-to-jdk1.5.0_22 >
+    $ export ANDROID_JAVA_HOME=$JAVA_HOME 
+    $ export CC=gcc-4.3 
+    $ export CXX=g++-4.3 
+    $ make -j 4 TARGET_PRODUCT=fr
+    }}}
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
