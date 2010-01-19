@@ -53,6 +53,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || SysInfo || [http://andappstore.com/AndroidApplications/apps/Sysinfo Download from AndAppStore] || Read only access to a heap of Android settings plus explanations of what they are for. ||
 || Tone Picker || [http://android.hlidskialf.com/software/tonepicker Download from developer] || Create ringtones and get full control over volume settings ||
 || TorProxy || [http://www.cl.cam.ac.uk/research/dtg/android/tor/ Project details here] || Makes it possible to use Internet sites and services anonymously from a mobile device ||
+|| Useful Switchers || [http://www.anddev.org/useful_switchers-t4260.html Download from Anddev.org] || Control panel for wifi and gps status, bluetooth, screen brightness, screen timeout etc.||
 || VcardIO || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
 || WiFi Buddy || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A wifi scanning tool which shows extra info on APs ||
 
