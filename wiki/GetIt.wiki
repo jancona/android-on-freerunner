@@ -53,7 +53,7 @@ First step is to download the latest build version [http://code.google.com/p/and
 
 One of the big plus points with Android is that Google push regular updates. The downside is that this project doesn't have the capacity to maintain several branches.  Our current use of versions is:
  # Cupcake (Android 1.5): This is our main branch for a workable Freerunner phone
- # Eclair (Android 2.0): Some work done to get it working(ish) on Freerunner, but no heavy development planned.
+ # Eclair (Android 2.1): Some work done to get it working(ish) on Freerunner, but no heavy development planned.
  # Master:  This branch is following the [http://source.android.com/ "Android Open Source Project"] and will form the basis for future development.  This will allow us to piggy-back on code releases from Google without going back to the start every time.
 
 == Installing ==
