@@ -44,11 +44,19 @@ Comprehensive information on partitioning and formatting your SD card can be fou
 
 First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
 
-*Now you make your first choice*
+*Now you make your first choice - build type*
  # Current featured builds are far from stable, but they are the best we have and will be valid for normal use.
  # Weekly builds are a snapshot of the repository as it stands on a Sunday night, so they could be broken if the developers are in the middle of something big.
+ # Daily builds are produced (see bottom of the page), these are only for those working on or testing the latest code changes.
 
-== Installation ==
+*Second choice - branch*
+
+One of the big plus points with Android is that Google push regular updates. The downside is that this project doesn't have the capacity to maintain several branches.  Our current use of versions is:
+ # Cupcake (Android 1.5): This is our main branch for a workable Freerunner phone
+ # Eclair (Android 2.0): Some work done to get it working(ish) on Freerunner, but no heavy development planned.
+ # Master:  This branch is following the [http://source.android.com/ "Android Open Source Project"] and will form the basis for future development.  This will allow us to piggy-back on code releases from Google without going back to the start every time.
+
+== Installing ==
 
 Start by opening a terminal and change to the directory you downloaded the build file to.  Next you need to attach your squeaky clean, newly formatted SD card to your system. 
 
