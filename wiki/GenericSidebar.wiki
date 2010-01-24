@@ -1,7 +1,7 @@
   * [MainPage Main page]
   * [GetIt Get it]
     * [GetIt#Before_you_start Before you start]
-    * [GetIt#Download_it Download]
+    * [GetIt#Download Download]
     * [GetIt#Installing Installing]
   * [UseIt Use it]
     * [UseIt#Post_install_set-up Post install set-up]
