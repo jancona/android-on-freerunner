@@ -4,7 +4,7 @@ What works on android-on-freerunner and how do you get it.
 
 == Application Stores ==
 
-Not being an official Android port, you cannot access the Android Market from your Freerunner phone.  Here are some alternative application stores that you will be able to download from.  Also shown are the links to their client programs which you can install on your phone.
+*Not being an official Android port, you cannot access the Android Market from your Freerunner phone.*  Here are some alternative application stores that you will be able to download from.  Also shown are the links to their client programs which you can install on your phone.
 
 *Remember* you need to activate the ´Unknown sources´ option under ´Applications´ before you can load non-Market programs.  
 
