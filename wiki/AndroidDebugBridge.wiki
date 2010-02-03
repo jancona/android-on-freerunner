@@ -5,6 +5,9 @@
 
 To install ADB, download the latest version of the Android SDK by following the instructions at http://developer.android.com/sdk. You will find `adb` in the `tools` directory.
 
+= Enable ADB =
+Due to security issues with ADB, the shell has been disabled by default in AoF. You can enable ADB again by navigating to Settings -> Application -> Development -> USB Debugging.
+
 = Connecting =
 
 First connect your freerunner running android with usb to your host. The following command configure usb networking on some Linux systems.
