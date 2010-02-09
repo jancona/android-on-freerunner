@@ -67,7 +67,7 @@ adb push wpa_supplicant.conf /data/misc/wifi/
 
 Yet another area which works but has a whole lot of variables which are nothing to do with android-on-freerunner! There may also be a problem getting GPRS to work with certain SIM cards.
 
-A comprehensive list of APN details is included and this should be filtered depending on your Country (MCC) and Carrier (MNC) codes reported by your phone.  If they are already in the list then you should see it under `Settings, Wireless controls, Mobile networks, Access Point Names`.  Select by tapping the button next to the one you want to use.
+A comprehensive list of APN details is included and this should be filtered depending on your Country (MCC) and Carrier (MNC) codes reported by your SIM card.  If they are already in the list then you should see it under `Settings, Wireless controls, Mobile networks, Access Point Names`.  Select by tapping the button next to the one you want to use.
 
 (*Note* There are still some stability issues around GPRS.)
 
