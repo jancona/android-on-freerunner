@@ -26,6 +26,12 @@ $ mkdir backup
 $ mkdir backup/data
 $ adb pull /data/data/com.android.providers.contacts/databases/contacts.db backup/data/contacts.db
 $ adb pull /data/data/com.android.providers.telephony/databases/mmssms.db backup/data/mmssms.db
+$ adb pull /data/data/com.android.alarmclock/databases/alarms.db backup/data/alarms.db
+$ adb pull /data/data/com.android.providers.settings/databases/settings.db backup/data/settings.db
+$ adb pull /data/data/com.android.providers.calendar/databases/calendar.db backup/data/calendar.db
+$ adb pull /data/data/com.android.settings/ backup/data/com.android.settings/
+$ adb pull /data/data/com.android.settings/shared_prefs/com.android.settings_preferences.xml backup/data/com.android.settings_preferences.xml
+$ adb pull /data/data/org.andnav2/ backup/data/org.andnav2/
 }}}
 
 === Partition and format the SD card ===
@@ -132,6 +138,12 @@ To restore your contacts and SMS data, push your backup to your Android phone us
 $ cd backup
 $ adb push backup/data/contacts.db /data/data/com.android.providers.contacts/databases/contacts.db
 $ adb push backup/data/mmssms.db /data/data/com.android.providers.telephony/databases/mmssms.db
+$ adb push backup/data/alarms.db /data/data/com.android.alarmclock/databases/alarms.db
+$ adb push backup/data/settings.db /data/data/com.android.providers.settings/databases/settings.db 
+$ adb push backup/data/calendar.db /data/data/com.android.providers.calendar/databases/calendar.db 
+$ adb push backup/data/com.android.settings/ /data/data/com.android.settings/
+$ adb push backup/data/com.android.settings_preferences.xml /data/data/com.android.settings/shared_prefs/com.android.settings_preferences.xml
+$ adb push backup/data/org.andnav2/ /data/data/org.andnav2/
 $ adb shell sync
 $ adb shell reboot
 }}}
