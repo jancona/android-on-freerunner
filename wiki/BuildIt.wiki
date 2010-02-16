@@ -3,10 +3,41 @@
 == ARM Toolchain ==
 The Freerunner uses an ARM processor. Chances are your host machine doesn't. That means if you you are going to build code designed to run on it you need to set up an environment that enables that on your host machine.
 
-That's where things get complicated!  There are different ways to achieve a suitable build environment and there are lots of host machine operating systems and processors. 
+That's where things get complicated! There are different ways to achieve a suitable build environment and there are lots of host machine operating systems and processors. 
 
-= Setting up your system =
+== Source code ==
+Install repo and download the source code following instructions on [http://code.google.com/p/android-on-freerunner/wiki/ImproveIt the wiki ImproveIt page.] Make sure to use the repo links for the AoF project.
+
+
+=== Setting up your system ===
 The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/download here.] These set ups are based on running Java 5.
+
+
+== Ubuntu 64-bit x86 ==
+
+If you followed the [http://source.android.com/download instructions] for Ubuntu 64-bit x86 systems, you're already 90% done.
+
+Now verify if you have package fakeroot installed. If not, install it by doing:
+{{{
+$ sudo apt-get install fakeroot
+}}}
+
+As per the instructions [http://source.android.com/download here], you've installed JDK 1.5 while you might already have JDK 1.6 installed. To make sure the make process uses the correct version, point your variable to the correct location (typically /usr/lib/jvm/java-1.5.0-sun):
+
+{{{
+    $ export JAVA_HOME=<path-to-java-1.5.0-sun>
+    $ export ANDROID_JAVA_HOME=$JAVA_HOME 
+}}}
+
+Now you're ready to compile. 
+
+{{{
+    $ make -j 4 TARGET_PRODUCT=freerunner
+}}}
+
+The -j parameter will try to optimise the compilation process. The number should represent the double of the amount of cores on your system. In this example, the source is compiled on a dual core system.
+
+== Karmic ==
 
 Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt/sources.list:
     {{{
@@ -14,33 +45,25 @@ Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt
     deb http://us.archive.ubuntu.com/ubuntu/ dapper universe multiverse
     }}}
 
-Then run:
-    {{{
-    $ sudo apt-get update
-    $ sudo apt-get install sun-java5-jdk
-    }}}
-
 In addition gcc-4.3, g++-4.3, liblzo2-dev and uboot-mkimage are needed:
     {{{
-    # sudo aptitude install gcc-4.3 g++-4.3 liblzo2-dev uboot-mkimage 
+    # sudo aptitude install gcc-4.3 g++-4.3 liblzo2-dev uboot-mkimage sun-java5-jdk
     }}}
 
-== Compiling ==
-Install repo and download the source code following instructions on [http://code.google.com/p/android-on-freerunner/wiki/ImproveIt the wiki ImproveIt page.] Make sure to use the repo links for this project and not the standard ones mentioned on that page.
-
-If sun-java5-jdk was installed using the procedure above then run:
-    {{{
-    $ export CC=gcc-4.3 
-    $ export CXX=g++-4.3 
-    $ make -j 4 TARGET_PRODUCT=fr
-    }}}
-
-Otherwise specify the JAVA folder:
+If sun-java5-jdk was not installed using the procedure above then run:
     {{{
     $ export JAVA_HOME=<path-to-jdk1.5.0_22 >
     $ export ANDROID_JAVA_HOME=$JAVA_HOME 
+    }}}
+
+Set your environment variables:
+    {{{
     $ export CC=gcc-4.3 
     $ export CXX=g++-4.3 
+    }}}
+
+And go:
+    {{{
     $ make -j 4 TARGET_PRODUCT=fr
     }}}
 ----
