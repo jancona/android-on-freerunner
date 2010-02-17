@@ -34,6 +34,13 @@ $ adb pull /data/data/com.android.settings/shared_prefs/com.android.settings_pre
 $ adb pull /data/data/org.andnav2/ backup/data/org.andnav2/
 }}}
 
+
+*Back-up/Restore Script*
+
+Teodor Robas has created a script to automatically backup contacts, sms, preferences, wallpaper, calendar and so on. It creates a restore script for pushing these back to the Freerunner after flashing a new image.  This script will also install busybox, a file explorer, and sets the date and time correctly. 
+
+You can [http://deep-blue.ro/dokuwiki/doku.php?id=backup_aof check the script out here.]
+
 === Partition and format the SD card ===
 
 For Android to work properly the Micro SD Card in your FreeRunner needs to have 2 primary partitions. The first needs to be a VFAT/MSDOS (16 or 32) partition which is used is mounted as '/sdcard', this is used as a  storage area (for pictures, movies, music, etc). The second is an ext3 partition which Android mounts as '/data', this is where it stores settings, caches, etc.
