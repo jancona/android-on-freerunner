@@ -37,6 +37,8 @@ Now you're ready to compile.
 
 The -j parameter will try to optimise the compilation process. The number should represent the double of the amount of cores on your system. In this example, the source is compiled on a dual core system.
 
+*NOTE:* If you are building the Cupcake branch then you need to specify 'freerunner' as the TARGET_PRODUCT, if you are using a newer branch then use 'fr'
+
 == Karmic ==
 
 Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt/sources.list:
@@ -50,7 +52,7 @@ In addition gcc-4.3, g++-4.3, liblzo2-dev and uboot-mkimage are needed:
     # sudo aptitude install gcc-4.3 g++-4.3 liblzo2-dev uboot-mkimage sun-java5-jdk
     }}}
 
-If sun-java5-jdk was not installed using the procedure above then run:
+You need to have sun-java5-jdk installed, as noted above, and you need to point the Android Java variables to the correct location.  Something like:
     {{{
     $ export JAVA_HOME=<path-to-jdk1.5.0_22 >
     $ export ANDROID_JAVA_HOME=$JAVA_HOME 
