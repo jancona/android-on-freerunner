@@ -42,7 +42,8 @@ This is the [http://source.android.com/download/using-repo Android source page o
 === Installing Git & Repo ===
 
 Installing Git:
-The latest version of Git should be available for installation using your distribution's package manager.
+
+The latest version of Git should be available for installation using your distribution's package manager. In Ubuntu you want the `git-core` package along with the required dependencies.
 
 Installing Repo:
  Make sure you have a /bin directory in your home directory and that it's in your $PATH. Then run:
