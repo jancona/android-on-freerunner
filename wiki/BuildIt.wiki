@@ -12,6 +12,11 @@ Install repo and download the source code following instructions on [http://code
 === Setting up your system ===
 The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/download here.] These set ups are based on running Java 5.
 
+== Ubuntu 10.04 ==
+
+Ubuntu 10.04 has several issues regarding compiling android. Especially 64-bit seems to have problems. g++-4.3-multilib is one package that is needed, a seperate install of jdk is also needed. I installed it in my home and pointed the JAVA_HOME variables accordingly. I have not yet been able to compile the complete source will continue here when I'm succefull.
+
+//larlin
 
 == Ubuntu 64-bit x86 ==
 
