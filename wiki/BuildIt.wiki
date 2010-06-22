@@ -10,7 +10,7 @@ Install repo and download the source code following instructions on [http://code
 
 
 === Setting up your system ===
-The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/download here.] These set ups are based on running Java 5.
+The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/source/download.html here.] These set ups are based on running Java 5.
 
 == Ubuntu 10.04 ==
 
@@ -25,7 +25,7 @@ Now verify if you have package fakeroot installed. If not, install it by doing:
 $ sudo apt-get install fakeroot
 }}}
 
-As per the instructions [http://source.android.com/download here], you've installed JDK 1.5 while you might already have JDK 1.6 installed. To make sure the make process uses the correct version, point your variable to the correct location (typically /usr/lib/jvm/java-1.5.0-sun):
+As per the instructions [http://source.android.com/source/download.html here], you've installed JDK 1.5 while you might already have JDK 1.6 installed. To make sure the make process uses the correct version, point your variable to the correct location (typically /usr/lib/jvm/java-1.5.0-sun):
 
 {{{
     $ export JAVA_HOME=<path-to-java-1.5.0-sun>
