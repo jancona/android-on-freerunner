@@ -1,75 +1,45 @@
 #summary Build your own system and test out your changes.
 
-== ARM Toolchain ==
-The Freerunner uses an ARM processor. Chances are your host machine doesn't. That means if you you are going to build code designed to run on it you need to set up an environment that enables that on your host machine.
-
-That's where things get complicated! There are different ways to achieve a suitable build environment and there are lots of host machine operating systems and processors. 
-
-== Source code ==
-Install repo and download the source code following instructions on [http://code.google.com/p/android-on-freerunner/wiki/ImproveIt the wiki ImproveIt page.] Make sure to use the repo links for the AoF project.
-
-
-=== Setting up your system ===
-The information on how to configure your 32-bit or 64-bit x86 system or your Mac OS system can be found on the main Google Android project page [http://source.android.com/source/download.html here.] These set ups are based on running Java 5.
-
-== Ubuntu 10.04 ==
-
-Ubuntu 10.04 has several issues regarding compiling android. Especially 64-bit seems to have problems. g++-4.3-multilib is one package that is needed, a seperate install of jdk is also needed. One way to do this is to instal it in your home and pointed the JAVA_HOME variables accordingly.
-
-== Ubuntu 64-bit x86 ==
-
-If you followed the [http://source.android.com/download instructions] for Ubuntu 64-bit x86 systems, you're already 90% done.
-
-Now verify if you have package fakeroot installed. If not, install it by doing:
+In general the setup necessary to build Android-on-Freerunner is the same as for the main Android project. See [http://source.android.com/source/download.html the Get Android Source page] there for instructions on downloading source code and setting up your machine's build environment. *One important difference:* The AoF-specific source code is hosted at our Gitorious repository, so to checkout AoF code use the following command (not the one on the source.android.com page):
 {{{
-$ sudo apt-get install fakeroot
+ $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b master
 }}}
+The `-b` parameter on the repo command specifies the branch to check out, currently either `cupcake` or `master`.
 
-As per the instructions [http://source.android.com/source/download.html here], you've installed JDK 1.5 while you might already have JDK 1.6 installed. To make sure the make process uses the correct version, point your variable to the correct location (typically /usr/lib/jvm/java-1.5.0-sun):
+= Setting up your system =
+In general, for either Mac OS/X or Linux build machines, follow the instructions at [http://source.android.com/source/download.html the source.android.com page]. Notes on specific situations are below.
 
-{{{
-    $ export JAVA_HOME=<path-to-java-1.5.0-sun>
-    $ export ANDROID_JAVA_HOME=$JAVA_HOME 
-}}}
-
-Now you're ready to compile. 
-
+To build, do:
 {{{
     $ make -j 4 TARGET_PRODUCT=freerunner
 }}}
 
-The -j parameter will try to optimise the compilation process. The number should represent the double of the amount of cores on your system. In this example, the source is compiled on a dual core system.
+The -j parameter will try to optimise the compilation process. The number should represent the double the number of cores on your system. In this example, the source is compiled on a dual core system. If you are trying to diagnose a build error, not using the `-j` parameter may make the diagnostics easier to read.
 
 *NOTE:* If you are building the Cupcake branch then you need to specify 'freerunner' as the TARGET_PRODUCT, if you are using a newer branch then use 'fr'
 
-== Karmic ==
+== Ubuntu Linux ==
 
-Karmic users can install sun-java5-jdk by adding the following lines to /etc/apt/sources.list:
-    {{{
-    deb http://us.archive.ubuntu.com/ubuntu/ dapper main restricted
-    deb http://us.archive.ubuntu.com/ubuntu/ dapper universe multiverse
-    }}}
+Install the packages recommended on the Android page for Ubuntu (32 or 64 bit). Ubuntu 9.10 (Karmic Koala) and later no longer have Java 5 (which is required) in the repositories. You can either manually download and install it from the [http://java.sun.com/javase/downloads/index_jdk5.jsp Oracle page], or you can add the old repository lines to your sources.list. See [http://blog.enea.com/Blog/bid/32050/Ubuntu-9-10-Java-5-and-the-Android-Open-Source-Project this page] for instructions on the two approaches.
 
-In addition gcc-4.3, g++-4.3, liblzo2-dev and uboot-mkimage are needed:
+Also in 9.10 and later, the default GCC version has changed, so gcc-4.3, g++-4.3, liblzo2-dev and uboot-mkimage must be installed:
     {{{
     # sudo aptitude install gcc-4.3 g++-4.3 liblzo2-dev uboot-mkimage sun-java5-jdk
     }}}
 
-You need to have sun-java5-jdk installed, as noted above, and you need to point the Android Java variables to the correct location.  Something like:
+Whichever of the methods above you've used to install Java 5, you need to point the Android Java variables to the correct location.  Something like:
     {{{
     $ export JAVA_HOME=<path-to-jdk1.5.0_22 >
     $ export ANDROID_JAVA_HOME=$JAVA_HOME 
     }}}
 
-Set your environment variables:
+Additionally you must set the proper GCC version with environment variables:
     {{{
     $ export CC=gcc-4.3 
     $ export CXX=g++-4.3 
     }}}
 
-And go:
-    {{{
-    $ make -j 4 TARGET_PRODUCT=fr
-    }}}
+Building with 64-bit OS seems to be more problematic. See the list of packages at the Android site, keeping in mind that GCC 4.3 versions of some of the packages make be needed (e.g. g++-4.3-multilib). If you come up with a configuration that works, please post it to the mailing list. On the other hand, if you are having problems fell free to ask for help!
+
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
