@@ -39,7 +39,7 @@ Additionally you must set the proper GCC version with environment variables:
     $ export CXX=g++-4.3 
     }}}
 
-Building with 64-bit OS seems to be more problematic. See the list of packages at the Android site, keeping in mind that GCC 4.3 versions of some of the packages make be needed (e.g. g++-4.3-multilib). If you come up with a configuration that works, please post it to the mailing list. On the other hand, if you are having problems fell free to ask for help!
+Building with 64-bit OS seems to be more problematic. See the list of packages at the Android site, keeping in mind that you need GCC 4.3 versions of some of the listed packages (cc-4.3-multilib and g++-4.3-multilib). If you come up with a configuration that works, please post it to the mailing list. On the other hand, if you are having problems fell free to ask for help!
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
