@@ -40,6 +40,9 @@ dfu-util -a u-boot -R -D qi.img
     reboot
     }}}
 
+  * *The list of GPRS settings does not include the APN details for my provider* The AoF project is taking the list of GPRS providers from the Cyanogenmod project. Requests for changes should be reported on the Cyanogenmod wiki [http://code.google.com/p/cyanogenmod/wiki/APNlist here]. The synchronisation towards AoF is currently not automated, so you can send a message to the AoF mailinglist to request a sync. In the meantime, you can always add your provider details manually yourself in your Freerunner.
+
+
 ----
      If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
 ----
