@@ -42,6 +42,19 @@ dfu-util -a u-boot -R -D qi.img
 
   * *The list of GPRS settings does not include the APN details for my provider* The AoF project is taking the list of GPRS providers from the Cyanogenmod project. Requests for changes should be reported on the Cyanogenmod wiki [http://code.google.com/p/cyanogenmod/wiki/APNlist here]. The synchronisation towards AoF is currently not automated, so you can send a message to the AoF mailinglist to request a sync. In the meantime, you can always add your provider details manually yourself in your Freerunner.
 
+  * *The volume is really low on phone calls and people have a hard time hearing me* To fix the audio on calls, follow these steps (only works on RC1 and cupcake daily images):
+    # Download these two files [http://android-on-freerunner.googlecode.com/issues/attachment?aid=-5422763061150972986&name=libmuxgsm-ril.so&token=a594185745157afdc5ec572d4de23f41 libmuxgsm-ril.so] and [http://android-on-freerunner.googlecode.com/issues/attachment?aid=9112655529052061802&name=asound.conf&token=226abe8cbe9903fecc46f778781614f9 asound.conf]
+    # Using adb, push the downloaded files to your FR:
+{{{
+  adb remount
+  adb push libmuxgxm-ril.so /system/lib/libmuxgsm-ril.so
+  adb push asound.conf /system/etc/asound.conf
+  adh shell
+  In shell:
+      sync
+      reboot
+}}}
+    # If you are still experiencing lower than desired volume on calls, you can install Tone Picker and increase the call volume there.
 
 ----
      If you have a question that is not answered above please send it to the [http://groups.google.com/group/android-on-freerunner Mailing List at our Google Groups site]
