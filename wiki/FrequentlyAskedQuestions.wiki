@@ -49,7 +49,7 @@ dfu-util -a u-boot -R -D qi.img
   adb remount
   adb push libmuxgxm-ril.so /system/lib/libmuxgsm-ril.so
   adb push asound.conf /system/etc/asound.conf
-  adh shell
+  adb shell
   In shell:
       sync
       reboot
