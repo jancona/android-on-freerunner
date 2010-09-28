@@ -2,9 +2,9 @@
 
 In general the setup necessary to build Android-on-Freerunner is the same as for the main Android project. See [http://source.android.com/source/download.html the Get Android Source page] there for instructions on downloading source code and setting up your machine's build environment. *One important difference:* The AoF-specific source code is hosted at our Gitorious repository, so to checkout AoF code use the following command (not the one on the source.android.com page):
 {{{
- $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b master
+ $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b froyo
 }}}
-The `-b` parameter on the repo command specifies the branch to check out, currently either `cupcake` or `master`.
+The `-b` parameter on the repo command specifies the branch to check out, currently either `cupcake` or `froyo`.
 
 = Setting up your system =
 In general, for either Mac OS/X or Linux build machines, follow the instructions at [http://source.android.com/source/download.html the source.android.com page]. Notes on specific situations are below.
@@ -48,15 +48,15 @@ In case you have multiple JREs installed, make sure to set the default to the ve
 To set the corect JRE, type:
 
     {{{
-    $ sudo java-update-alternatives --set [the correct JRE]
+    $ sudo java-update-alternatives --set [the correct 1.5 JRE]
     }}}
 
 Building with 64-bit OS seems to be more problematic. See the list of packages at the Android site, keeping in mind that you need GCC 4.3 versions of some of the listed packages (cc-4.3-multilib and g++-4.3-multilib). If you come up with a configuration that works, please post it to the mailing list. On the other hand, if you are having problems fell free to ask for help!
 
 = The Installer branch =
-The installer branch is important in case you want to build your own installer package like the daily builds or Cupcake releases. The installer branch includes the qi bootloader and a kernel with busybox and mtd-utils.
+The installer branch is important in case you want to build your own installer package like the daily builds or releases. The installer branch includes the qi bootloader and a kernel with busybox and mtd-utils.
 
-Prepare your system by download and installing the OpenMoko toolchain as described in [http://wiki.openmoko.org/wiki/Toolchain#Downloading_and_installing this paragraph]. 
+Prepare your system by downloading and installing the OpenMoko toolchain as described in [http://wiki.openmoko.org/wiki/Toolchain#Downloading_and_installing this paragraph]. This you will need for compiling Buysybox.
 
 Install the xutils-dev package since you will be needing lndir as part of the make process
 
