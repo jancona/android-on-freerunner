@@ -1,71 +1,59 @@
 #summary How to run AoF completely from an SD card
 = Introduction =
 
-With AoF on SD card it is *not* necessary to flash anything to NAND of your Freerunner, not even another bootloader. The Howto here assumes you have an SD card layout where your first (primary) partition is FAT32 and your second is ext2/3. For other setups have a closer look at the patches to modify them according to your needs. Anything beyond the 2nd partition does not matter. See also [#SD_partition_layout SD partition layout]
+With AoF on SD card it is *not* necessary to flash anything to NAND of your Freerunner, not even another bootloader. The Howto here assumes you have an SD card layout where your first (primary) partition is FAT32 and your second is ext2/3. For other setups have a closer look at the patches to modify them according to your needs. Anything beyond the 2nd partition does not matter. See also [#SD_partition_layout SD partition layout] part of this page.
 
 = Details =
 
-The setup for Cupcake and Froyo are similar but not the same, so please have a look at the section you want to build. It is also recommended to read [ImproveIt Improve it] and [BuildIt Build it] to understand general principles.
+Before continuing, make sure to understand the general principles explained in [ImproveIt Improve it] and [BuildIt Build it].
+
+The modifications and instructions below are different for Cupcake and Froyo. Please skip to the section relevant for you branch (Cupcake or Froyo).
 
 == Cupcake ==
 
-Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up. Note the product name is fr not freerunner here!
+Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
 
- * get a copy of Cupcake repo
-   {{{
-   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
-   $ repo sync
-   }}}
- * get the patches from here FIXME
- * patch kernel sources to not use an initrd
+ # get a copy of Cupcake repo (if not already on your system)
+ # get the patches from the issue tracker [http://android-on-freerunner.googlecode.com/issues/attachment?aid=-5611045103073528004&name=file1&token=a0c9e5688112faeef9c75aa9ec65ed80 here] (issue 7, comment 53, file attached)
+ # patch kernel sources to not use an initrd
    {{{
    $ cd kernel
    $ cat ../kernel.patch | patch -p1
    }}}
- * patch init.rc to modify mounts
+ # patch init.rc to modify mounts
    {{{
    $ cd vendor/neo/freerunner/
    $ cat ../../../initrc.patch | patch -p1
    }}}
- * build Cupcake, e.g.
-   {{{
-   make TARGET_PRODUCT=freerunner
-   }}}
- * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
+ # build Cupcake
+ # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using [#Copy_to_/_Update_your_SD_installation this script].
 
 == Froyo ==
 
-Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
+Do the following steps in a directory where you want to build Froyo. All prerequisites should be set up.
 
- * get a copy of Froyo repo
-   {{{
-   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b froyo
-   $ repo sync
-   }}}
- * get the patches from here FIXME
- * patch kernel sources to not use an initrd
+ # get a copy of Froyo repo (if not already on your system)
+ # get the patches from the issue tracker [http://android-on-freerunner.googlecode.com/issues/attachment?aid=-1885962078132689004&name=sdcard_changes&token=843d407e82b3f5c0ef804711865c99c7 here] (issue 7, comment 67, file attached)
+ # patch kernel sources to not use an initrd
    {{{
    $ cd kernel
    $ cat ../kernel.patch | patch -p1
    }}}
- * patches for vendor/neo/fr directory
+ # patches for vendor/neo/fr directory
    {{{
    $ cd vendor/neo/fr
    $ cat ../../../vendor_neo_fr.patch | patch -p1
    }}}
    This will patch several files and also create new ones.
- * build Froyo, e.g.
-   {{{
-   make TARGET_PRODUCT=fr
-   }}}
- * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
- * Boot Froyo once and the replug SD card into your PC again to [#Modify_Froyo_settings modify settings], otherwise the system is way to slow to be usable.
+ # build Froyo
+ # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
+ # Boot Froyo once and replug the SD card into your PC again and modify the Froyo settings to increase responsiveness. See the FAQ section for detailed instructions.
 
 === Scripts ===
 
 == Copy to / Update your SD installation ==
 
-Make sure you have enough permissions to do the following and you have `rsync` installed.
+Make sure you have the correct permissions to do the following and you have `rsync` installed.
 
 {{{
 #!/bin/bash
@@ -86,7 +74,7 @@ chmod --changes -R 777 $TO
 
 == Modify Froyo settings ==
 
-Make sure you have enough permissions to do the following and you have `sqlite3` installed.
+Make sure you have the correct permissions to do the following and you have `sqlite3` installed.
 
  * mount android SD card and navigate to settings directory
    {{{
@@ -107,9 +95,7 @@ Use your favourite partitioning tool to create/modify the partitions on your SD 
 || filesystem       || vfat         || ext3      || ext3      || ext3      ||
 || used for         || AoF storage  || AoF system|| system X  || storage X ||
 
-Note that for best SD usage mmcblk0p1 should be used for a third system and "AoF storage" placed in a logical partition, but I have not tested that yet. Volunteers welcome :)
-See [http://wiki.openmoko.org/wiki/Qi#Boot_Order Qi boot order] why.
-
+Note that for best SD usage mmcblk0p1 should be used for a third system and "AoF storage" placed in a logical partition. See [http://wiki.openmoko.org/wiki/Qi#Boot_Order Qi boot order] to understand why. However, this has not yet been tested. Volunteers are welcome :)
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
