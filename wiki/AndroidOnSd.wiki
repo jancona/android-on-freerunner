@@ -1,7 +1,7 @@
 #summary How to run AoF completely from an SD card
 = Introduction =
 
-With AoF on SD card it is *not* necessary to flash anything to NAND of your Freerunner, not even another bootloader. The Howto here assumes you have an SD card layout where your first (primary) partition is FAT32 and your second is ext2/3. For other setups have a closer look at the patches to modify them according to your needs. Anything beyond the 2nd partition does not matter.
+With AoF on SD card it is *not* necessary to flash anything to NAND of your Freerunner, not even another bootloader. The Howto here assumes you have an SD card layout where your first (primary) partition is FAT32 and your second is ext2/3. For other setups have a closer look at the patches to modify them according to your needs. Anything beyond the 2nd partition does not matter. See also [#SD_partition_layout SD partition layout]
 
 = Details =
 
@@ -98,6 +98,18 @@ Make sure you have enough permissions to do the following and you have `sqlite3`
    $ echo "REPLACE INTO \"system\" VALUES(26,'window_animation_scale','0.0'); \
      REPLACE INTO \"system\" VALUES(27,'transition_animation_scale','0.0');" | sqlite3 settings.db
    }}}
+
+== SD partition layout ==
+
+Use your favourite partitioning tool to create/modify the partitions on your SD card to have one FAT32 partition at the beginning, followed by one ext2/3 partition for the AoF system. Example layout:
+
+|| partition number || mmcblk0p1    || mmcblk0p2 || mmcblk0p3 || mmcblk0p5 ||
+|| filesystem       || vfat         || ext3      || ext3      || ext3      ||
+|| used for         || AoF storage  || AoF system|| system X  || storage X ||
+
+Note that for best SD usage mmcblk0p1 should be used for a third system and "AoF storage" placed in a logical partition, but I have not tested that yet. Volunteers welcome :)
+See [http://wiki.openmoko.org/wiki/Qi#Boot_Order Qi boot order] why.
+
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
