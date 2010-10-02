@@ -1,0 +1,62 @@
+#summary How to run AoF completely from an SD card
+= Introduction =
+
+With AoF on SD card it is *not* necessary to flash anything to NAND of your Freerunner, not even another bootloader. The Howto here assumes you have an SD card layout where your first (primary) partition is FAT32 and your second is ext2/3. For other setups have a closer look at the patches to modify them according to your needs. Anything beyond the 2nd partition does not matter.
+
+= Details =
+
+The setup for Cupcake and Froyo are similar but not the same, so please have a look at the section you want to build. It is also recommended to read [ImproveIt Improve it] and [BuildIt Build it] to understand general principles.
+
+== Cupcake ==
+
+Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
+
+ * get a copy of Cupcake repo
+   {{{
+   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
+   $ repo sync
+   }}}
+ * get the patches from here FIXME
+ * patch kernel sources to not use an initrd
+   {{{
+   $ cd kernel
+   $ cat ../kernel.patch | patch -p1
+   }}}
+ * patch init.rc to modify mounts
+   {{{
+   $ cd vendor/neo/freerunner/
+   $ cat ../../../initrc.patch | patch -p1
+   }}}
+ * build Cupcake, e.g.
+   {{{
+   make TARGET_PRODUCT=freerunner
+   }}}
+ * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card: [AndroidOnSd#Scripts Scripts]
+
+
+== Froyo ==
+
+=== Scripts ===
+
+== Copy to / Update your SD installation ==
+
+Make sure you have enough permissions to do the following and you have `rsync` installed.
+
+{{{
+#!/bin/bash
+
+#replace by the directory where your build is
+FROM="/mnt/android-dev/aof/out/target/product/freerunner"
+#replace by mountpoint of SD card
+TO="/media/android"
+RSYNCOPTS=" -aP "
+
+rsync $RSYNCOPTS $FROM/root/ $TO/
+rsync $RSYNCOPTS $FROM/system/ $TO/system/
+test -d "$TO/boot" || mkdir $TO/boot
+rsync $RSYNCOPTS $FROM/kernel.img  $TO/boot/uImage-GTA02.bin
+cp -v $TO/init $TO/sbin/init
+chmod --changes -R 777 $TO
+}}}
+
+== Modify Froyo settings ==
