@@ -33,8 +33,32 @@ Do the following steps in a directory where you want to build Cupcake. All prere
    }}}
  * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card: [AndroidOnSd#Scripts Scripts]
 
-
 == Froyo ==
+
+Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
+
+ * get a copy of Froyo repo
+   {{{
+   $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b froyo
+   $ repo sync
+   }}}
+ * get the patches from here FIXME
+ * patch kernel sources to not use an initrd
+   {{{
+   $ cd kernel
+   $ cat ../kernel.patch | patch -p1
+   }}}
+ * patches for vendor/neo/fr directory
+   {{{
+   $ cd vendor/neo/fr
+   $ cat ../../../vendor_neo_fr.patch | patch -p1
+   }}}
+   This will patch several files and also create new ones.
+ * build Froyo, e.g.
+   {{{
+   make TARGET_PRODUCT=fr
+   }}}
+ * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card: [AndroidOnSd#Scripts Scripts]
 
 === Scripts ===
 
