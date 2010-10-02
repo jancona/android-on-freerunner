@@ -95,8 +95,8 @@ Make sure you have enough permissions to do the following and you have `sqlite3`
    }}}
  * modify database
    {{{
-   $ echo "REPLACE INTO "system" VALUES(26,'window_animation_scale','0.0'); \
-     REPLACE INTO "system" VALUES(27,'transition_animation_scale','0.0');" | sqlite3 settings.db
+   $ echo "REPLACE INTO \"system\" VALUES(26,'window_animation_scale','0.0'); \
+     REPLACE INTO \"system\" VALUES(27,'transition_animation_scale','0.0');" | sqlite3 settings.db
    }}}
 
 ----
