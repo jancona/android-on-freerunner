@@ -18,5 +18,6 @@
     * [ImproveIt#A_working_repository A working repository]
     * [ImproveIt#Working_with_the_source Working with the source]
   * [BuildIt Build it]
+  * [AndroidOnSd AoF on SD]
   * [Art Art]
   * [ChangeLog Change log]
