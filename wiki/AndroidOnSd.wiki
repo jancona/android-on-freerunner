@@ -9,7 +9,7 @@ The setup for Cupcake and Froyo are similar but not the same, so please have a l
 
 == Cupcake ==
 
-Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
+Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up. Note the product name is fr not freerunner here!
 
  * get a copy of Cupcake repo
    {{{
@@ -31,7 +31,7 @@ Do the following steps in a directory where you want to build Cupcake. All prere
    {{{
    make TARGET_PRODUCT=freerunner
    }}}
- * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card: [AndroidOnSd#Scripts Scripts]
+ * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
 
 == Froyo ==
 
@@ -58,7 +58,8 @@ Do the following steps in a directory where you want to build Cupcake. All prere
    {{{
    make TARGET_PRODUCT=fr
    }}}
- * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card: [AndroidOnSd#Scripts Scripts]
+ * after successfull build copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
+ * Boot Froyo once and the replug SD card into your PC again to [#Modify_Froyo_settings modify settings], otherwise the system is way to slow to be usable.
 
 === Scripts ===
 
@@ -84,3 +85,19 @@ chmod --changes -R 777 $TO
 }}}
 
 == Modify Froyo settings ==
+
+Make sure you have enough permissions to do the following and you have `sqlite3` installed.
+
+ * mount android SD card and navigate to settings directory
+   {{{
+   $ pmount android
+   $ cd /media/android/data/data/com.android.providers.settings/databases/
+   }}}
+ * modify database
+   {{{
+   $ echo "REPLACE INTO "system" VALUES(26,'window_animation_scale','0.0'); \
+     REPLACE INTO "system" VALUES(27,'transition_animation_scale','0.0');" | sqlite3 settings.db
+   }}}
+
+----
+_Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
