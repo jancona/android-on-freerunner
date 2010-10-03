@@ -14,16 +14,10 @@ The modifications and instructions below are different for Cupcake and Froyo. Pl
 Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
 
  # get a copy of Cupcake repo (if not already on your system)
- # get the patches from the issue tracker [http://android-on-freerunner.googlecode.com/issues/attachment?aid=-5611045103073528004&name=file1&token=a0c9e5688112faeef9c75aa9ec65ed80 here] (issue 7, comment 53, file attached)
- # patch kernel sources to not use an initrd
+ # get the patches from here (patch not yet ready)
+ # apply the patch
    {{{
-   $ cd kernel
-   $ cat ../kernel.patch | patch -p1
-   }}}
- # patch init.rc to modify mounts
-   {{{
-   $ cd vendor/neo/freerunner/
-   $ cat ../../../initrc.patch | patch -p1
+   $ git apply xyz
    }}}
  # build Cupcake
  # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using [#Copy_to_/_Update_your_SD_installation this script].
@@ -33,18 +27,12 @@ Do the following steps in a directory where you want to build Cupcake. All prere
 Do the following steps in a directory where you want to build Froyo. All prerequisites should be set up.
 
  # get a copy of Froyo repo (if not already on your system)
- # get the patches from the issue tracker [http://android-on-freerunner.googlecode.com/issues/attachment?aid=-1885962078132689004&name=sdcard_changes&token=843d407e82b3f5c0ef804711865c99c7 here] (issue 7, comment 67, file attached)
- # patch kernel sources to not use an initrd
+ # get the patches from here 
+ # get the patches from here (patch not yet ready)
+ # apply the patch
    {{{
-   $ cd kernel
-   $ cat ../kernel.patch | patch -p1
+   $ git apply xyz
    }}}
- # patches for vendor/neo/fr directory
-   {{{
-   $ cd vendor/neo/fr
-   $ cat ../../../vendor_neo_fr.patch | patch -p1
-   }}}
-   This will patch several files and also create new ones.
  # build Froyo
  # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
  # Boot Froyo once and replug the SD card into your PC again and modify the Froyo settings to increase responsiveness. See the FAQ section for detailed instructions.
