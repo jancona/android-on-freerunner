@@ -14,10 +14,10 @@ The modifications and instructions below are different for Cupcake and Froyo. Pl
 Do the following steps in a directory where you want to build Cupcake. All prerequisites should be set up.
 
  # get a copy of Cupcake repo (if not already on your system)
- # get the patches from here (patch not yet ready)
+ # get the patches from here [http://code.google.com/p/android-on-freerunner/issues/detail?id=7&colspec=ID%20Type%20Status%20Priority%20Owner%20Summary%20BuildVersion%20AndroidVersion%20Component#c70 issue 7 comment 70]
  # apply the patch
    {{{
-   $ git apply xyz
+   $ patch -p1 < cupcake.patch
    }}}
  # build Cupcake
  # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using [#Copy_to_/_Update_your_SD_installation this script].
@@ -28,10 +28,10 @@ Do the following steps in a directory where you want to build Froyo. All prerequ
 
  # get a copy of Froyo repo (if not already on your system)
  # get the patches from here 
- # get the patches from here (patch not yet ready)
+ # get the patches from here [http://code.google.com/p/android-on-freerunner/issues/detail?id=7&colspec=ID%20Type%20Status%20Priority%20Owner%20Summary%20BuildVersion%20AndroidVersion%20Component#c70 issue 7 comment 70]
  # apply the patch
    {{{
-   $ git apply xyz
+   $ patch -p1 < froyo.patch
    }}}
  # build Froyo
  # copy the necessary directories and files onto the 2nd partition (ext2/3) of your SD card using the [#Copy_to_/_Update_your_SD_installation copy script].
