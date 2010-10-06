@@ -78,5 +78,23 @@ Compile the source by simply typing:
 
 Now look for the files called qi.img and uImage.img.
 
+= Installation Package =
+
+For those who wish to build their own AoF installation package from the local repository, we have created a little script that will do this for you. Pre-requisite is that you've successfully compiled your AoF branch (e.g. Cupcake or Froyo) and the installer branch.
+
+The script, called PackageInstaller.sh, is part of the installer branch and can be found in the installer directory.
+
+The script requires two parameters: the path to your local installer branch and the path to your AoF branch.
+
+An example of how to use the script:
+
+    {{{
+    $ ./aof_installer/installer/PackageInstaller.sh ./aof_installer ./aof_cupcake
+    }}}
+
+The script will create the a file called aof-installpackage-YYYYMMDD.tar.gz in your current directory.
+
+Copy your tar.gz to your SD card and you're ready to install your own AoF distro ;-)
+
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
