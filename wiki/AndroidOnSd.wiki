@@ -60,21 +60,6 @@ cp -v $TO/init $TO/sbin/init
 chmod --changes -R 777 $TO
 }}}
 
-== Modify Froyo settings ==
-
-Make sure you have the correct permissions to do the following and you have `sqlite3` installed.
-
- * mount android SD card and navigate to settings directory
-   {{{
-   $ pmount android
-   $ cd /media/android/data/data/com.android.providers.settings/databases/
-   }}}
- * modify database
-   {{{
-   $ echo "REPLACE INTO \"system\" VALUES(26,'window_animation_scale','0.0'); \
-     REPLACE INTO \"system\" VALUES(27,'transition_animation_scale','0.0');" | sqlite3 settings.db
-   }}}
-
 == SD partition layout ==
 
 Use your favourite partitioning tool to create/modify the partitions on your SD card to have one FAT32 partition at the beginning, followed by one ext2/3 partition for the AoF system. Example layout:
