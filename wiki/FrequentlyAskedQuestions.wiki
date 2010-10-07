@@ -57,10 +57,16 @@ dfu-util -a u-boot -R -D qi.img
     # If you are still experiencing lower than desired volume on calls, you can install Tone Picker and increase the call volume there.
 
   * *Froyo is very slow. What can I do to improve responsiveness?* First thing is: try to find the bottlenecks and provide feedback or patches ;-). As a quick hack, make sure you have sqlite3 installed and have the correct permissions to do the following:
-   # mount android SD card and navigate to settings directory
+   # navigate to settings directory corresponding to your install type
+     # mount android SD card and navigate to settings directory (SD version)
 {{{
          $ pmount android
          $ cd /media/android/data/data/com.android.providers.settings/databases/
+}}}
+     # connect to your Freerunner using [AndroidDebugBridge adb] (NAND version)
+{{{
+         $ adb shell
+         # cd /data/data/com.android.providers.settings/databases/
 }}}
    # modify database
 {{{
