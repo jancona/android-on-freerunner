@@ -65,5 +65,7 @@ Use your favourite partitioning tool to create/modify the partitions on your SD 
 
 Note that for best SD usage mmcblk0p1 should be used for a third system and "AoF storage" placed in a logical partition. See [http://wiki.openmoko.org/wiki/Qi#Boot_Order Qi boot order] to understand why. However, this has not yet been tested. Volunteers are welcome :)
 
+Concerning size it depends on how much you want to put in your partition. The system partition should be big enough for system + some additional space for config and other applications. The original 512M card is fine for an AndroidOnSd installation (FAT + ext3).
+
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
