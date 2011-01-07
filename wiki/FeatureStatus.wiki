@@ -5,7 +5,7 @@ This is the list of features and their status on Android. Please report any func
 = Overview =
 
 
-|| *Category* || *Feature* || *Cupcake* || *Eclair* || *Comments* ||  
+|| *Category* || *Feature* || *Cupcake* || *Froyo* || *Comments* ||  
 || Phone || Incoming Call || <font color="GREEN">*Working*</font> || Unknown ||  ||
 || Phone || Outgoing Call || <font color="GREEN">*Working*</font> || Unknown ||  ||
 || Phone || Second Incoming Call during active call || Unknown || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
