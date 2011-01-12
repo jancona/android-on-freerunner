@@ -6,21 +6,22 @@ This is the list of features and their status on Android. Please report any func
 
 
 || *Category* || *Feature* || *Cupcake* || *Froyo* || *Comments* ||  
-|| Phone || Incoming Call || <font color="GREEN">*Working*</font> || Unknown ||  ||
-|| Phone || Outgoing Call || <font color="GREEN">*Working*</font> || Unknown ||  ||
+|| Phone || Incoming Call || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
+|| Phone || Outgoing Call || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
 || Phone || Second Incoming Call during active call || Unknown || Unknown || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
-|| Phone || Airplane Mode || <font color="GREEN">*Working*</font> || Unknown ||  ||
+|| Phone || Airplane Mode || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
 || Phone || Unlock SIM Card || <font color="Orange">*Partially*</font> || Unknown || Depends on SIM card ||
-|| SMS || Send || <font color="GREEN">*Working*</font> || Unknown ||  ||
-|| SMS || Receive || <font color="GREEN">*Working*</font> || Unknown ||  ||
-|| SMS || Send long message || <font color="GREEN">*Working*</font> || Unknown || ||
-|| SMS || Receive long message || <font color="GREEN">*Working*</font> || Unknown || ||
-|| Contacts || Import SIM Contacts || <font color="Orange">*Partially*</font> || Unknown || Depends on SIM card ||
-|| Connectivity || Wifi || <font color="GREEN">*Working*</font> || Unknown ||  ||
+|| SMS || Send || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
+|| SMS || Receive || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
+|| SMS || Send long message || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> || ||
+|| SMS || Receive long message || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> || ||
+|| Contacts || Import SIM Contacts || <font color="Orange">*Partially*</font> || <font color="Orange">*Partially*</font> || Depends on SIM card, hardware related ||
+|| Connectivity || Wifi || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> ||  ||
 || Connectivity || Bluetooth || <font color="Orange">*Partially*</font> || Unknown || No sound over Bluetooth ||
-|| Connectivity || GPRS || <font color="GREEN">*Working*</font> || Unknown || [http://code.google.com/p/cyanogenmod/wiki/APNlist Control listing of APNs] ||
+|| Connectivity || GPRS || <font color="GREEN">*Working*</font> || <font color="GREEN">*Working*</font> || [http://code.google.com/p/cyanogenmod/wiki/APNlist Control listing of APNs] ||
 || Connectivity || GPS || <font color="GREEN">*Working*</font>  || Unknown ||  ||
-|| Other || Accelerometers || <font color="Orange">*Partially*</font> || Unknown ||[http://code.google.com/p/android-on-freerunner/issues/detail?id=43 Screen rotation only] ||
+|| Contacts|| Import from SD || <font color="GREEN">*Working*</font>  || <font color="GREEN">*Working*</font>  ||  ||
+|| Other || Accelerometers || <font color="Orange">*Partially*</font> || <font color="Orange">*Partially*</font> ||[http://code.google.com/p/android-on-freerunner/issues/detail?id=43 Screen rotation only] ||
 || Others to add ? || ? || ? || ? || [http://groups.google.com/group/android-on-freerunner Send us your feedback] ||
 
 
