@@ -53,21 +53,24 @@ Comprehensive information on partitioning and formatting your SD card can be fou
 
 *Note* Users have reported that it is also possible to install Android by making a single partition formatted as VFAT/MSDOS. 
 
-== Download ==
+== Choose your build ==
 
-First step is to download the latest build version [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.]  Both tar and zip versions are available, but we will assume you are a good soul and only use non-proprietry formats and operating systems.
+*First step is to decide which version of Android you want to install.*  
 
-*Now you make your first choice - build type*
- # Current featured builds are far from stable, but they are the best we have and will be valid for normal use.
- # Weekly builds are a snapshot of the repository as it stands on a Sunday night, so they could be broken if the developers are in the middle of something big.
- # Daily builds are produced (see bottom of the page), these are only for those working on or testing the latest code changes.
+One of the big plus points with Android is that Google push regular updates. The downside is that this project doesn't have the capacity to maintain several branches. 
 
-*Second choice - branch*
+The current maintained options are *Cupcake (Android 1.5)* - as stable as it gets on the Freerunner with most functions working or *Froyo (Android 2.2)* - so bleeding edge as it hurts.
 
-One of the big plus points with Android is that Google push regular updates. The downside is that this project doesn't have the capacity to maintain several branches.  Our current use of versions is:
- # Cupcake (Android 1.5): This is our main branch for a workable Freerunner phone
- # Eclair (Android 2.1): Some work done to get it working(ish) on Freerunner, but no heavy development planned.
- # Master:  This branch is following the [http://source.android.com/ "Android Open Source Project"] and will form the basis for future development.  This will allow us to piggy-back on code releases from Google without going back to the start every time.
+There is also a Master branch which is following the [http://source.android.com/ "Android Open Source Project"] and will form the basis for future development.  Allowing us to piggy-back on code releases from Google without going back to the start every time.
+
+*Next decide if you will create your own build:*  [http://code.google.com/p/android-on-freerunner/wiki/BuildIt See detailed instructions here]
+
+
+*or if you want to use one of the prepared builds available:* 
+ # Download the latest "stable" Cupcake build version [http://code.google.com/p/android-on-freerunner/downloads/list featured on the Downloads tab on this site.]  These are provided by Ran.
+ # Download the current Froyo build (including the latest commits and experimental) [http://sango.cleyfaye.net/aof/ provided by Cley Faye here.]
+ # Download the one of the SD builds made available by Ran and hosted by Serdar. [http://code.google.com/p/android-on-freerunner/wiki/AndroidOnSd See here for full details.]
+
 
 == Installing ==
 
@@ -157,11 +160,12 @@ $ adb shell sync
 $ adb shell reboot
 }}}
 
+<wiki:comment> Removed until Serdar is back in business :-)
 =Daily Builds=
 
 There are daily builds made by serdar, these are build from the repo every night European time, or more often if there is some patch to be tested. These are for testing purposes and should be avoided if you aren't interested in testing some specific path.
  http://serdar-dere.net/~serdar/daily/ 
-
+</wiki:comment>
 
 ----
 _Send your comments to [mailto:android-on-freerunner@googlegroups.com the mailing list]_
