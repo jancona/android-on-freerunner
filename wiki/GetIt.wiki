@@ -66,11 +66,12 @@ There is also a Master branch which is following the [http://source.android.com/
 *Next decide if you will create your own build:*  [http://code.google.com/p/android-on-freerunner/wiki/BuildIt See detailed instructions here]
 
 *or if you want to use one of the prepared builds available:* 
- * Download the latest "stable" Cupcake build version [http://code.google.com/p/android-on-freerunner/downloads/list featured on the Downloads tab on this site.]  These are provided by Ran.
- * Download the current Froyo build [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.] Be aware that these include the latest commits and are experimental. These are provided by Cley Faye.
+ * Download the latest "stable" Cupcake build version [http://code.google.com/p/android-on-freerunner/downloads/list featured on the Downloads tab on this site.]  
+ * Download the current Froyo build [http://code.google.com/p/android-on-freerunner/downloads/list from the Downloads tab on this site.] Be aware that these include the latest commits and are experimental.
 
 NB: To install the SD builds on the Download tab [http://code.google.com/p/android-on-freerunner/wiki/AndroidOnSd see here for details.]
 
+We are grateful to Ran and Cley Faye for providing the prepared builds.
 
 == Installing ==
 
