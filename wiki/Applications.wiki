@@ -47,6 +47,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 <wiki:comment>Removed as it needs proprietary API
 || gTasks || [http://andappstore.com/AndroidApplications/apps/224161!show Download from AndAppStore] || An offline Tasks application that syncs with Google Tasks ||
 </wiki:comment>
+|| Hanping Dictionary || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [http://www.freewarelovers.com/android/app/hanping-chinese-english-dictionary Download from website] || Advanced English / Chinese dictionary with voice recognition and support for hanzi and pinyin ||
 || ICQ_Mobile || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [http://www.freewarelovers.com/android/app/icq-mobile Download from website] || Native ICQ client for Android with support for Facebook contacts ||
 || Jabiru || <font color="ORANGE">*?*</font> || <font color="ORANGE">*?*</font> || [http://jabiru.mzet.net/ Download from developer] ||  XMPP Jabber client (only a single account in current version) <br /> *This app has been reported as crashing - Feedback please* ||
 || jAndroidDict || <font color="ORANGE">*?*</font> || <font color="ORANGE">*?*</font> || [http://jandroiddict.sourceforge.net/ Download from SF] ||  Simple android offline dictionary (mueller7, vera, jargon). Russian locale! ||
