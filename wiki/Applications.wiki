@@ -30,6 +30,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 || AndNav2 || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
 || AndNav2 Cupcake || <font color="GREEN">*Y*</font> || <font color="RED">*N*</font> || [http://thorsten.coding4coffee.org/AndNav2.apk Download from Thorsten] || Thorsten Zellmer has made a build of the OS AndNav2 which plays nicely with the Cupcake version of AoF ||
 || android-sky || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://code.google.com/p/android-sky/ Download from the project homepage] || A weather widget. You need to download version 102 and use the gps method for location ||
+|| android-zhuyin-ime|| <font color="ORANGE">*?*</font> || <font color="GREEN">*Y*</font> || [code.google.com/p/android-zhuyin-ime/downloads Download from the project homepage] || ZhuYin is an input method for Chinese language used in Taiwan. It is similar to PinYin widely used in Mainland China, but at the opposite, it doesn't use Latin alphabet for writing||
 || ankidroid || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://code.google.com/p/ankidroid/ Download from the project homepage] || AnkiDroid is the portable, open source and free version of Anki for Android ||
 || apndroid || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [https://code.google.com/p/ankidroid/wiki/Index Download from the project homepage] || Enables/disables APNs to connect to internet ||
 || Beem || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [http://beem-project.com/projects/beem/files Download from the project homepage] || Jabber/XMPP client compatible with any standard XMPP server. Includes support for SASL, Socks4 and Socks5 proxy and DNS SRV ||
@@ -84,6 +85,5 @@ Here are some of the applications android-on-freerunner users have recommended:
 || VcardIO || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
 || VNC-Viewer || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://code.google.com/p/android-vnc-viewer/ Download from project homepage] || A VNC viewer for Android platform, android-vnc-viewer is forked from tightVNC viewer. ||
 || WiFi Buddy || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A wifi scanning tool which shows extra info on APs ||
-
 ----
 If you have any applications to add,  or comments/updates on the ones here, then [http://groups.google.com/group/android-on-freerunner send them to us here.]
