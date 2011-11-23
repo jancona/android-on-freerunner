@@ -24,6 +24,7 @@ Here are some of the applications android-on-freerunner users have recommended:
 *Note* Some apps may not default to the correct screen size. You can try toggling the `Spare Parts/Compatibility Mode` option.
 
 || *Application* || *C* || *E* || *Link* || *Details* ||
+|| 4myPAL || <font color="ORANGE">*?*</font> || <font color="GREEN">*Y*</font> || [http://wiki.4mypal.com/trac4myPALcom/attachment/wiki/download/4mypal-android-sync-client-9.0.3b.apk Download from developer] || 4myPAL is a PIM tool which use syncml to synchronize your contacts, calendar and task of your android phone with a syncml remote server.||
 || abook2podcast || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://skliarie.blogspot.com/2009/12/audiobook-as-podcast.html Download from developer] || Convert an Audiobook into a Podcast ||
 || Act 1 || <font color="GREEN">*Y*</font> || <font color="RED">*N*</font> || [http://www.hyperaware.com/android/video-player/ Download from developer] || A full featured video player that plays mp4 format files. There is a free trial version you can download from the home page. ||
 || AndNav2 || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
