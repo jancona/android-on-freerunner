@@ -13,13 +13,12 @@ The Wiki includes information on how to [GetIt download and install Android], ho
 
 Browse through the following pages to find those details you are looking for.
 
-* [FeatureStatus Status] of key features of the phone
-* [GetIt Download and install] Androind on your Freerunner
-* [UseIt Set up] use and support your AoF installation
-* [BuildIt Build] AoF from source and get your hands on the code
-* [FrequentlyAskedQuestions FAQ]
-* [Support Here] you need to be when looking for help  
-
+ * *[FeatureStatus Status]* of key features
+ * *[GetIt Download and install]* AoF
+ * *[UseIt Set up]* use and support your AoF installation
+ * *[BuildIt Build]* AoF from source and get your hands dirty
+ * *[FrequentlyAskedQuestions FAQ]*
+ * *[Support Here]* you need to be when looking for help
 
 = Get involved =
 
