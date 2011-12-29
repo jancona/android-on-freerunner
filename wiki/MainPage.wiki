@@ -11,7 +11,15 @@ The focus of this Wiki is to centralise Android specific information and how to 
 
 The Wiki includes information on how to [GetIt download and install Android], how to use specific parts (like the [AndroidDebugBridge ADB shell]), what [FeatureStatus features] of the Freerunner are currently functional and how you can contribute to improve the release.
 
-Browse through the menu section on your left to find those details you are looking for.
+Browse through the following pages to find those details you are looking for.
+
+* [FeatureStatus Status] of key features of the phone
+* [GetIt Download and install] Androind on your Freerunner
+* [UseIt Set up] use and support your AoF installation
+* [BuildIt Build] AoF from source and get your hands on the code
+* [FrequentlyAskedQuestions FAQ]
+* [Support Here] you need to be when looking for help  
+
 
 = Get involved =
 
