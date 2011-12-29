@@ -14,6 +14,7 @@ The Wiki includes information on how to [GetIt download and install Android], ho
 Browse through the following pages to find those details you are looking for.
 
  * *[FeatureStatus Status]* of key features
+ * *[Applications Applications]* confirmed to be running on AoF
  * *[GetIt Download and install]* AoF
  * *[UseIt Set up]* use and support your AoF installation
  * *[BuildIt Build]* AoF from source and get your hands dirty
