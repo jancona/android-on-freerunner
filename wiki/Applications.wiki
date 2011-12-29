@@ -20,13 +20,14 @@ What works on android-on-freerunner and how do you get it.
 
 Here are some of the applications android-on-freerunner users have recommended:
 
-(*C* - works under Cupcake, *E* - works under Eclair)
+(*C* - works under Cupcake, *F* - works under Froyo)
 *Note* Some apps may not default to the correct screen size. You can try toggling the `Spare Parts/Compatibility Mode` option.
 
-|| *Application* || *C* || *E* || *Link* || *Details* ||
+|| *Application* || *C* || *F* || *Link* || *Details* ||
 || 4myPAL || <font color="ORANGE">*?*</font> || <font color="GREEN">*Y*</font> || [http://wiki.4mypal.com/trac4myPALcom/attachment/wiki/download/4mypal-android-sync-client-9.0.3b.apk Download from developer] || 4myPAL is a PIM tool which use syncml to synchronize your contacts, calendar and task of your android phone with a syncml remote server.||
 || abook2podcast || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://skliarie.blogspot.com/2009/12/audiobook-as-podcast.html Download from developer] || Convert an Audiobook into a Podcast ||
 || Act 1 || <font color="GREEN">*Y*</font> || <font color="RED">*N*</font> || [http://www.hyperaware.com/android/video-player/ Download from developer] || A full featured video player that plays mp4 format files. There is a free trial version you can download from the home page. ||
+|| aCommander || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [http://www.freewarelovers.com/android/app/acommander Download from developer] || A simple Midnight Commander (or Norton Commander) style file manager. You can perform basic operation on file suystem like copy, paste, move, delete, rename (where you have the permissions). You can browse nand fs too, not just the sd card.||
 || AndNav2 || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://www.andnav.org/ Download from developer] || Open Street Map GPS tool with route finding for some areas ||
 || AndNav2 Cupcake || <font color="GREEN">*Y*</font> || <font color="RED">*N*</font> || [http://thorsten.coding4coffee.org/AndNav2.apk Download from Thorsten] || Thorsten Zellmer has made a build of the OS AndNav2 which plays nicely with the Cupcake version of AoF ||
 || android-sky || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://code.google.com/p/android-sky/ Download from the project homepage] || A weather widget. You need to download version 102 and use the gps method for location ||
