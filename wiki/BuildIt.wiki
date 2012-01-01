@@ -1,22 +1,30 @@
 #summary Build your own system and test out your changes.
 
-In general the setup necessary to build Android-on-Freerunner is the same as for the main Android project. See [http://source.android.com/source/download.html the Get Android Source page] there for instructions on downloading source code and setting up your machine's build environment. *One important difference:* The AoF-specific source code is hosted at our Gitorious repository, so to checkout AoF code use the following command (not the one on the source.android.com page):
+In general, the setup necessary to build Android-on-Freerunner is the same as for the main Android project. See  
+
+ * [http://source.android.com/source/initializing.html Initialise your system] for instructions on setting up your system
+
+ * [http://source.android.com/source/downloading.html Download the code] for instructions how to download the code
+
+*One important difference:* The AoF-specific source code is hosted at our Gitorious repository, so to checkout AoF code use the following command (not the one on the source.android.com page):
 {{{
  $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b froyo
 }}}
 The `-b` parameter on the repo command specifies the branch to check out, currently either `cupcake` or `froyo`.
 
+ * [http://source.android.com/source/building.html Initialise your build] for the first paragraph on sourcing the build/envsetup.sh. You can forget about the rest of that page in the context of AoF.
+
 = Setting up your system =
-In general, for either Mac OS/X or Linux build machines, follow the instructions at [http://source.android.com/source/download.html the source.android.com page]. Notes on specific situations are below.
+In general, for either Mac OS/X or Linux build machines, follow the instructions at pages mentioned above. Notes on specific situations are below.
 
 To build, do:
 {{{
-    $ make -j 4 TARGET_PRODUCT=freerunner
+    $ make -j 4 TARGET_PRODUCT=<correct product>
 }}}
 
-The -j parameter will try to optimise the compilation process. The number should represent the double the number of cores on your system. In this example, the source is compiled on a dual core system. If you are trying to diagnose a build error, not using the `-j` parameter may make the diagnostics easier to read.
+The -j parameter will try to optimise the compilation process. The number should represent the double of the number of cores on your system. In this example, the source is compiled on a dual core system. If you are trying to diagnose a build error, not using the `-j` parameter may make the diagnostics easier to read.
 
-*NOTE:* If you are building the Cupcake branch then you need to specify 'freerunner' as the TARGET_PRODUCT, if you are using a newer branch then use 'fr'
+*NOTE:* If you are building the Cupcake branch then you need to specify 'freerunner' as the TARGET_PRODUCT, if you are using a newer branch (i.e. Froyo) then use 'fr'
 
 == Ubuntu Linux ==
 
@@ -29,7 +37,7 @@ Also in 9.10 and later, the default GCC version has changed, so gcc-4.3, g++-4.3
 
 Whichever of the methods above you've used to install Java 5, you need to point the Android Java variables to the correct location.  Something like:
     {{{
-    $ export JAVA_HOME=<path-to-jdk1.5.0_22 >
+    $ export JAVA_HOME=<path-to-jdk1.5.0_22>
     $ export ANDROID_JAVA_HOME=$JAVA_HOME 
     }}}
 
