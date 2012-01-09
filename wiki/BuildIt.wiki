@@ -10,21 +10,37 @@ In general, the setup necessary to build Android-on-Freerunner is the same as fo
 {{{
  $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b froyo
 }}}
+or
+{{{
+ $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b cupcake
+}}}
+
 The `-b` parameter on the repo command specifies the branch to check out, currently either `cupcake` or `froyo`.
+
+Next, just type the following to get the source code:
+
+{{{
+ $ repo sync
+}}}
+
 
  * [http://source.android.com/source/building.html Initialise your build] for the first paragraph on sourcing the build/envsetup.sh. You can forget about the rest of that page in the context of AoF.
 
 = Setting up your system =
 In general, for either Mac OS/X or Linux build machines, follow the instructions at pages mentioned above. Notes on specific situations are below.
 
-To build, do:
+To build Froyo, do:
 {{{
-    $ make -j 4 TARGET_PRODUCT=<correct product>
+    $ make -j 4 TARGET_PRODUCT=fr
 }}}
 
-The -j parameter will try to optimise the compilation process. The number should represent the double of the number of cores on your system. In this example, the source is compiled on a dual core system. If you are trying to diagnose a build error, not using the `-j` parameter may make the diagnostics easier to read.
+To build Cupcake, do:
+{{{
+    $ make -j 4 TARGET_PRODUCT=freerunner
+}}}
 
-*NOTE:* If you are building the Cupcake branch then you need to specify 'freerunner' as the TARGET_PRODUCT, if you are using a newer branch (i.e. Froyo) then use 'fr'
+
+*NOTE:* The -j parameter will try to optimise the compilation process. The number should represent the double of the number of cores on your system. In this example, the source is compiled on a dual core system. If you are trying to diagnose a build error, not using the `-j` parameter may make the diagnostics easier to read.
 
 == Ubuntu Linux ==
 
@@ -77,21 +93,26 @@ Building with 64-bit OS seems to be more problematic. See the list of packages a
 = The Installer branch =
 The installer branch is important in case you want to build your own installer package like the daily builds or releases. The installer branch includes the qi bootloader and a kernel with busybox and mtd-utils.
 
-Prepare your system by downloading and installing the OpenMoko toolchain as described in [http://wiki.openmoko.org/wiki/Toolchain#Downloading_and_installing this paragraph]. This you will need for compiling Buysybox.
+  * Prepare your system by downloading and extracting the OpenMoko toolchain to the correct location as described in [http://wiki.openmoko.org/wiki/Toolchain#Downloading_and_installing this paragraph]. You will this toolchain for compiling Buysybox as part of the installer.
 
-Install the xutils-dev package since you will be needing lndir as part of the make process
+  * Install the xutils-dev package since you will be needing lndir as part of the make process
 
     {{{
     $ sudo apt-get install xutils-dev
     }}}
 
-Create a separate dir and get the source code on your system:
+  * Create a separate dir and get the source code on your system:
 
     {{{
     $ repo init -u git://gitorious.org/android-on-freerunner/freerunner_platform_manifest.git -b installer
     }}}
 
-Compile the source by simply typing:
+Now get the code by typing:
+    {{{
+    $ repo sync
+    }}}
+
+  * Once this process is done, compile the source by simply typing:
 
     {{{
     $ make
