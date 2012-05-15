@@ -92,5 +92,6 @@ Here are some of the applications android-on-freerunner users have recommended:
 || VcardIO || <font color="GREEN">*Y*</font> || <font color="GREEN">*Y*</font> || [http://andappstore.com/AndroidApplications/apps/vCardIO Download from AndAppStore] || Lets you import and export contacts using VCF files ||
 || VNC-Viewer || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://code.google.com/p/android-vnc-viewer/ Download from project homepage] || A VNC viewer for Android platform, android-vnc-viewer is forked from tightVNC viewer. ||
 || WiFi Buddy || <font color="GREEN">*Y*</font> || <font color="ORANGE">*?*</font> || [http://andappstore.com/AndroidApplications/apps/WiFi_Buddy Download from AndAppStore] || A wifi scanning tool which shows extra info on APs ||
+|| Xiaoma Hanzi Chinese Character || <font color="ORANGE">*?*</font> || <font color="GREEN">*Y*</font> || [http://www.1mobile.com/xiaoma-hanzi-chinese-character-126276.html Download from here] || Simplified Chinese characters reference dictionary and study tool.  ||
 ----
 If you have any applications to add,  or comments/updates on the ones here, then [http://groups.google.com/group/android-on-freerunner send them to us here.]
